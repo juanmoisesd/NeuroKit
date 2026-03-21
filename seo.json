@@ -1,0 +1,19 @@
+{
+  "title": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
+  "description": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
+  "keywords": "open-data, dataset, research",
+  "author": "Juan Moisés de la Serna Tuya",
+  "orcid": "https://orcid.org/0000-0002-8401-8018",
+  "canonical": "https://juanmoisesd.github.io/NeuroKit/",
+  "og:title": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
+  "og:description": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
+  "og:url": "https://juanmoisesd.github.io/NeuroKit/",
+  "og:type": "dataset",
+  "twitter:card": "summary",
+  "twitter:title": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
+  "twitter:description": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
+  "schema_type": "Dataset",
+  "license": "CC0-1.0",
+  "datePublished": "2026-03-20",
+  "language": "es, en"
+}
