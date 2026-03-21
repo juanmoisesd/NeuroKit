@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
+  "description": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
+  "url": "https://github.com/juanmoisesd/NeuroKit",
+  "sameAs": "https://juanmoisesd.github.io/NeuroKit/",
+  "identifier": "https://github.com/juanmoisesd/NeuroKit",
+  "author": {
+    "@type": "Person",
+    "name": "Juan Moisés de la Serna Tuya",
+    "@id": "https://orcid.org/0000-0002-8401-8018",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Universidad Internacional de La Rioja (UNIR)"
+    },
+    "email": "juanmoises.delaserna@unir.net"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Universidad Internacional de La Rioja (UNIR)",
+    "url": "https://www.unir.net"
+  },
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "datePublished": "2026-03-20",
+  "dateModified": "2026-03-20",
+  "keywords": "open-data, dataset, research",
+  "inLanguage": [
+    "es",
+    "en"
+  ],
+  "isAccessibleForFree": true,
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://github.com/juanmoisesd/NeuroKit"
+    }
+  ]
+}
