@@ -1,4 +1,4 @@
-# 📖 Glosario / Glossary: Neurología y Enfermedades Neurodegenerativas / Neurology & Neurodegenerative Diseases
+# 📖 Glosario / Glossary: Inteligencia Artificial y Ciencia de Datos / Artificial Intelligence & Data Science
 
 > **Definiciones originales de / Original definitions by:** Juan Moisés de la Serna Tuya
 > **ORCID:** [0000-0002-8401-8018](https://orcid.org/0000-0002-8401-8018) | **LinkedIn:** [juanmoisesdelaserna](https://www.linkedin.com/in/juanmoisesdelaserna/)
@@ -7,64 +7,45 @@
 
 ---
 
-*Definiciones originales en neurología clínica, enfermedad de Alzheimer, deterioro cognitivo y demencias, con aplicación a datos epidemiológicos de América Latina.*
+*Definiciones originales en inteligencia artificial, ciencia de datos, ciencia abierta y metodología de investigación digital.*
 
 *Este glosario contiene definiciones originales propuestas por el autor en el contexto de esta base de datos. Las definiciones están disponibles en español e inglés para maximizar la difusión internacional. Si utilizas estas definiciones, por favor cita al autor (ver sección al final del documento).*
 
 ---
 
-## A
+## C
 
-**Alzheimer (Enfermedad de) / Alzheimer's Disease**
-Trastorno neurodegenerativo progresivo e irreversible que constituye la causa más frecuente de demencia (60-70% de los casos). Se caracteriza histopatológicamente por la acumulación de placas de amiloide-β y ovillos neurofibrilares de proteína tau hiperfosforilada, con pérdida sináptica y neuronal progresiva.
-*A progressive and irreversible neurodegenerative disorder constituting the most frequent cause of dementia (60-70% of cases). It is histopathologically characterized by accumulation of amyloid-β plaques and hyperphosphorylated tau neurofibrillary tangles, with progressive synaptic and neuronal loss.*
-*— De la Serna Tuya, J. M. (2025)*
-
-## B
-
-**Biomarcadores de Demencia / Dementia Biomarkers**
-Indicadores biológicos medibles (en líquido cefalorraquídeo, sangre o mediante neuroimagen) que reflejan procesos fisiopatológicos subyacentes a las demencias, incluyendo niveles de Aβ42, proteína tau total, tau fosforilada, neurofilamento de cadena ligera (NfL) y atrofia hipocampal en RM.
-*Measurable biological indicators (in cerebrospinal fluid, blood, or through neuroimaging) reflecting pathophysiological processes underlying dementias, including Aβ42, total tau, phosphorylated tau, neurofilament light chain (NfL) levels, and hippocampal atrophy on MRI.*
+**Ciencia Abierta / Open Science**
+Movimiento que promueve la transparencia, accesibilidad y reproducibilidad de la investigación científica, incluyendo acceso abierto, datos abiertos, código abierto, revisión abierta y participación ciudadana en la ciencia.
+*A movement promoting transparency, accessibility, and reproducibility in scientific research, encompassing open access, open data, open code, open peer review, and citizen science.*
 *— De la Serna Tuya, J. M. (2025)*
 
 ## D
 
-**Demencia / Dementia**
-Síndrome clínico caracterizado por deterioro progresivo de múltiples funciones cognitivas (memoria, lenguaje, funciones ejecutivas, orientación) de suficiente gravedad como para interferir con las actividades de la vida diaria, causado por enfermedades cerebrales diversas.
-*A clinical syndrome characterized by progressive deterioration of multiple cognitive functions (memory, language, executive functions, orientation) severe enough to interfere with daily life activities, caused by various brain diseases.*
+**Datos FAIR / FAIR Data**
+Principios de gestión de datos que establecen que los datos científicos deben ser Localizables (Findable), Accesibles (Accessible), Interoperables (Interoperable) y Reutilizables (Reusable), facilitando la reproducibilidad y la colaboración interdisciplinaria.
+*Data management principles stating that scientific data must be Findable, Accessible, Interoperable, and Reusable (FAIR), facilitating reproducibility and interdisciplinary collaboration.*
 *— De la Serna Tuya, J. M. (2025)*
 
-**Deterioro Cognitivo Leve (DCL) / Mild Cognitive Impairment (MCI)**
-Estado clínico intermedio entre el envejecimiento cognitivo normal y la demencia, caracterizado por déficits cognitivos objetivos que no comprometen la funcionalidad diaria. El DCL amnésico tiene alto riesgo de conversión a enfermedad de Alzheimer (10-15% anual).
-*An intermediate clinical state between normal cognitive aging and dementia, characterized by objective cognitive deficits that do not compromise daily functionality. Amnestic MCI carries high risk of conversion to Alzheimer's disease (10-15% annually).*
+## G
+
+**IA Generativa / Generative AI**
+Sistemas de inteligencia artificial capaces de producir nuevos contenidos (texto, imágenes, código) mediante transformadores, redes generativas adversarias (GAN) o modelos de difusión entrenados en grandes corpus de datos.
+*AI systems capable of generating new content (text, images, code) using transformers, GANs, or diffusion models trained on large data corpora.*
 *— De la Serna Tuya, J. M. (2025)*
 
-## F
+## M
 
-**Factores de Riesgo Modificables de Demencia / Modifiable Dementia Risk Factors**
-Variables sobre las que es posible intervenir para reducir el riesgo de demencia, identificadas por la Comisión Lancet (2020): hipertensión, tabaquismo, obesidad, depresión, inactividad física, diabetes, hipoacusia, consumo excesivo de alcohol, lesión cerebral traumática, contaminación del aire y aislamiento social.
-*Variables amenable to intervention to reduce dementia risk, identified by the Lancet Commission (2020): hypertension, smoking, obesity, depression, physical inactivity, diabetes, hearing loss, excessive alcohol consumption, traumatic brain injury, air pollution, and social isolation.*
+**Machine Learning**
+Subcampo de IA en el que los sistemas aprenden automáticamente de los datos sin ser programados explícitamente, mediante algoritmos supervisados, no supervisados o por refuerzo, mejorando su rendimiento con la experiencia.
+*An AI subfield in which systems automatically learn from data without explicit programming, using supervised, unsupervised, or reinforcement learning algorithms.*
 *— De la Serna Tuya, J. M. (2025)*
 
-## H
+## R
 
-**Hipocampo / Hippocampus**
-Estructura cerebral bilateral ubicada en el lóbulo temporal medial, fundamental para la consolidación de memorias declarativas y la navegación espacial. La atrofia hipocampal es el biomarcador estructural más precoz de la enfermedad de Alzheimer.
-*A bilateral brain structure located in the medial temporal lobe, fundamental for declarative memory consolidation and spatial navigation. Hippocampal atrophy is the earliest structural biomarker of Alzheimer's disease.*
-*— De la Serna Tuya, J. M. (2025)*
-
-## P
-
-**Proteína Tau / Tau Protein**
-Proteína asociada a microtúbulos que en condiciones patológicas se hiperfosforila, se separa de los microtúbulos y forma agregados intracelulares (ovillos neurofibrilares) característicos de las tauopatías, incluida la enfermedad de Alzheimer.
-*A microtubule-associated protein that under pathological conditions becomes hyperphosphorylated, detaches from microtubules, and forms intracellular aggregates (neurofibrillary tangles) characteristic of tauopathies, including Alzheimer's disease.*
-*— De la Serna Tuya, J. M. (2025)*
-
-## S
-
-**Screening Cognitivo / Cognitive Screening**
-Evaluación breve y estandarizada de funciones cognitivas en población general o clínica para identificar posible deterioro cognitivo que requiera evaluación neuropsicológica completa. Instrumentos validados incluyen el MMSE, MoCA, MOCA-Blind y Mini-Cog.
-*A brief, standardized assessment of cognitive functions in general or clinical populations to identify possible cognitive impairment requiring comprehensive neuropsychological evaluation. Validated instruments include the MMSE, MoCA, MOCA-Blind, and Mini-Cog.*
+**Reproducibilidad Científica / Scientific Reproducibility**
+Capacidad de obtener resultados consistentes al replicar un estudio usando los mismos datos y procedimientos (reproducibilidad computacional) o nuevos datos con la misma metodología (replicabilidad).
+*The ability to obtain consistent results when replicating a study using the same data and procedures (computational reproducibility) or new data with the same methodology (replicability).*
 *— De la Serna Tuya, J. M. (2025)*
 
 ---
