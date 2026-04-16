@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import matplotlib.pyplot as plt
 import numpy as np
+import scipy.integrate
 import pandas as pd
 
 from .signal_psd import signal_psd
@@ -51,6 +52,7 @@ def signal_power(
 
       import neurokit2 as nk
       import numpy as np
+      import scipy.integrate
 
       # Instant power
       signal = nk.signal_simulate(duration=60, frequency=[10, 15, 20],
@@ -155,7 +157,7 @@ def _signal_power_instant(
 def _signal_power_instant_compute(psd, band):
     """Also used in other instances"""
     where = (psd["Frequency"] >= band[0]) & (psd["Frequency"] < band[1])
-    power = np.trapz(y=psd["Power"][where], x=psd["Frequency"][where])
+    power = scipy.integrate.trapezoid(y=psd["Power"][where], x=psd["Frequency"][where])
     return np.nan if power == 0.0 else power
 
 
