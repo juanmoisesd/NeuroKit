@@ -634,7 +634,7 @@ Disclaimer
 *The authors do not provide any warranty. If this software causes your keyboard to blow up, your brain to liquefy, your toilet to clog or a zombie plague to break loose, the authors CANNOT IN ANY WAY be held responsible.*
 
 Contributors & Acknowledgments
-==============================
+------------------------------
 
 NeuroKit2 is developed and maintained by the neuropsychology research community. The full list of contributors is available on GitHub <https://github.com/neuropsychology/NeuroKit/graphs/contributors>_.
 h
