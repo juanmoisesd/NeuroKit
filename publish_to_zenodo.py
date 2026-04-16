@@ -62,12 +62,12 @@ def publish_to_zenodo():
                 data=fp,
                 params=params,
             )
-        if upload_response.status_code == 200:
+        if upload_response.status_code in [200, 201]:
             print(f"Archivo {file_name} subido correctamente.")
         else:
             print(f"Error al subir {file_name}: {upload_response.status_code}")
 
-    # 3. Publish (Optional - uncomment to make it permanent and get a real DOI)
+    # 3. Publish
     print("Publicando la deposición para obtener el DOI...")
     publish_response = requests.post(f"{BASE_URL}/deposit/depositions/{deposition_id}/actions/publish",
                                      params=params)
@@ -84,13 +84,4 @@ def publish_to_zenodo():
 if __name__ == "__main__":
     doi = publish_to_zenodo()
     if doi:
-        # Update README with the new DOI
-        readme_path = 'scripts/README.md'
-        with open(readme_path, 'r') as f:
-            content = f.read()
-
-        updated_content = content.replace("[Pendiente tras publicación en Zenodo]", doi)
-
-        with open(readme_path, 'w') as f:
-            f.write(updated_content)
-        print("README.md actualizado con el DOI.")
+        print(f"DOI obtenido: {doi}")
