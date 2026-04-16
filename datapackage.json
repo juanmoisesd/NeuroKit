@@ -1,8 +1,8 @@
 {
   "name": "NeuroKit",
   "title": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
-  "description": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
-  "version": "1.0.0",
+  "description": "NeuroKit2 is a user-friendly, accessible Python toolbox for neurophysiological signal processing. It provides a comprehensive suite of tools for processing signals from various modalities, including electrocardiography (ECG), electrodermal activity (EDA), electromyography (EMG), photoplethysmography (PPG), electroencephalography (EEG), and more.",
+  "version": "0.2.12",
   "licenses": [
     {
       "name": "CC0-1.0",
@@ -19,9 +19,15 @@
     }
   ],
   "keywords": [
-    "open-data",
-    "dataset",
-    "research"
+    "neurophysiology",
+    "signal-processing",
+    "ECG",
+    "EEG",
+    "EDA",
+    "PPG",
+    "EMG",
+    "Python",
+    "open-science"
   ],
   "sources": [
     {
@@ -29,5 +35,5 @@
       "path": "https://github.com/juanmoisesd/NeuroKit"
     }
   ],
-  "created": "2026-03-20"
+  "created": "2025-02-12"
 }

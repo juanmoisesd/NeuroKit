@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software/dataset, please cite it as below."
-type: dataset
+type: software
 title: "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing"
 authors:
   - family-names: "de la Serna Tuya"
@@ -10,15 +10,20 @@ authors:
     email: "juanmoises.delaserna@unir.net"
 repository-code: "https://github.com/juanmoisesd/NeuroKit"
 url: "https://juanmoisesd.github.io/NeuroKit/"
-abstract: "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing"
+abstract: "NeuroKit2 is a user-friendly, accessible Python toolbox for neurophysiological signal processing. It provides a comprehensive suite of tools for processing signals from various modalities, including electrocardiography (ECG), electrodermal activity (EDA), electromyography (EMG), photoplethysmography (PPG), electroencephalography (EEG), and more."
 keywords:
-  - open-data
-  - dataset
-  - research
-  - science
+  - neurophysiology
+  - signal-processing
+  - ECG
+  - EEG
+  - EDA
+  - PPG
+  - EMG
+  - Python
+  - open-science
 license: CC0-1.0
-version: "1.0.0"
-date-released: "2026-03-20"
+version: "0.2.12"
+date-released: "2025-02-12"
 references:
   - type: dataset
     title: "Open Research Collection — Juan Moisés de la Serna Tuya"
@@ -29,3 +34,28 @@ references:
         given-names: "Juan Moisés"
         orcid: "https://orcid.org/0000-0002-8401-8018"
     notes: "Master collection of 1273+ open research datasets"
+  - type: article
+    title: "NeuroKit2: A Python toolbox for neurophysiological signal processing"
+    doi: "10.3758/s13428-020-01516-y"
+    authors:
+      - family-names: "Makowski"
+        given-names: "Dominique"
+      - family-names: "Pham"
+        given-names: "Tam"
+      - family-names: "Lau"
+        given-names: "Zen J."
+      - family-names: "Brammer"
+        given-names: "Jan C."
+      - family-names: "Lespinasse"
+        given-names: "François"
+      - family-names: "Pham"
+        given-names: "Hung"
+      - family-names: "Schölzel"
+        given-names: "Christopher"
+      - family-names: "Chen"
+        given-names: "S. A. Annabel"
+    journal: "Behavior Research Methods"
+    volume: 53
+    issue: 4
+    pages: "1689-1696"
+    year: 2021

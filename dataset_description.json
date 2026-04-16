@@ -1,7 +1,7 @@
 {
   "datasetVersion": {
     "title": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
-    "description": "<p>NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing</p>",
+    "description": "<p>NeuroKit2 is a user-friendly, accessible Python toolbox for neurophysiological signal processing. It provides a comprehensive suite of tools for processing signals from various modalities, including electrocardiography (ECG), electrodermal activity (EDA), electromyography (EMG), photoplethysmography (PPG), electroencephalography (EEG), and more.</p>",
     "subject": [
       "Computer and Information Science",
       "Social Sciences",
@@ -13,7 +13,7 @@
         "value": {
           "keywordValue": {
             "typeName": "keywordValue",
-            "value": "open-data"
+            "value": "neurophysiology"
           }
         }
       },
@@ -22,7 +22,7 @@
         "value": {
           "keywordValue": {
             "typeName": "keywordValue",
-            "value": "dataset"
+            "value": "signal-processing"
           }
         }
       },
@@ -31,7 +31,61 @@
         "value": {
           "keywordValue": {
             "typeName": "keywordValue",
-            "value": "research"
+            "value": "ECG"
+          }
+        }
+      },
+      {
+        "typeName": "keyword",
+        "value": {
+          "keywordValue": {
+            "typeName": "keywordValue",
+            "value": "EEG"
+          }
+        }
+      },
+      {
+        "typeName": "keyword",
+        "value": {
+          "keywordValue": {
+            "typeName": "keywordValue",
+            "value": "EDA"
+          }
+        }
+      },
+      {
+        "typeName": "keyword",
+        "value": {
+          "keywordValue": {
+            "typeName": "keywordValue",
+            "value": "PPG"
+          }
+        }
+      },
+      {
+        "typeName": "keyword",
+        "value": {
+          "keywordValue": {
+            "typeName": "keywordValue",
+            "value": "EMG"
+          }
+        }
+      },
+      {
+        "typeName": "keyword",
+        "value": {
+          "keywordValue": {
+            "typeName": "keywordValue",
+            "value": "Python"
+          }
+        }
+      },
+      {
+        "typeName": "keyword",
+        "value": {
+          "keywordValue": {
+            "typeName": "keywordValue",
+            "value": "open-science"
           }
         }
       }
@@ -40,7 +94,7 @@
       {
         "authorName": {
           "typeName": "authorName",
-          "value": "de la Serna Tuya, Juan"
+          "value": "de la Serna Tuya, Juan Moisés"
         },
         "authorAffiliation": {
           "typeName": "authorAffiliation",
@@ -72,7 +126,7 @@
       {
         "dsDescriptionValue": {
           "typeName": "dsDescriptionValue",
-          "value": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing"
+          "value": "NeuroKit2 is a user-friendly, accessible Python toolbox for neurophysiological signal processing. It provides a comprehensive suite of tools for processing signals from various modalities, including electrocardiography (ECG), electrodermal activity (EDA), electromyography (EMG), photoplethysmography (PPG), electroencephalography (EEG), and more."
         }
       }
     ],
@@ -81,7 +135,7 @@
       "English"
     ],
     "kindOfData": [
-      "Dataset"
+      "Software"
     ],
     "license": "CC0 1.0",
     "distributor": [
@@ -96,8 +150,8 @@
         }
       }
     ],
-    "distributionDate": "2026-03-20",
+    "distributionDate": "2025-02-12",
     "depositor": "Juan Moisés de la Serna Tuya",
-    "dateOfDeposit": "2026-03-20"
+    "dateOfDeposit": "2025-02-12"
   }
 }
