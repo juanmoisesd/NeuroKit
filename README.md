@@ -8,6 +8,19 @@ NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing
 
 ---
 
+## 🔬 Academic SEO & Research Context
+
+**Detailed Abstract (English):**
+NeuroKit2 is a comprehensive Python toolbox for neurophysiological signal processing, designed to facilitate the analysis of physiological data in research contexts. This repository provides a robust suite of tools for processing electrocardiography (ECG), electroencephalography (EEG), electromyography (EMG), and respiratory signals. In the field of **Neuroeconomics**, these physiological markers are critical for understanding the biological underpinnings of economic decision-making and identifying cognitive biases. Furthermore, NeuroKit2 supports the development of advanced algorithms for **Fraud Detection** by analyzing autonomic responses associated with deceptive behavior. By providing high-quality, open-source tools, this project aims to enhance reproducibility and scientific rigor in behavioral and forensic sciences.
+
+**Resumen Detallado (Español):**
+NeuroKit2 es una caja de herramientas integral de Python para el procesamiento de señales neurofisiológicas, diseñada para facilitar el análisis de datos fisiológicos en contextos de investigación. Este conjunto de datos proporciona una suite robusta de herramientas para procesar electrocardiografía (ECG), electroencefalografía (EEG), electromiografía (EMG) y señales respiratorias. En el campo de la **Neuroeconomía**, estos marcadores fisiológicos son fundamentales para comprender las bases biológicas de la toma de decisiones económicas e identificar sesgos cognitivos. Además, NeuroKit2 respalda el desarrollo de algoritmos avanzados para la **Detección de Fraude** mediante el análisis de respuestas autonómicas asociadas con el comportamiento engañoso. Al proporcionar herramientas de código abierto de alta calidad, este proyecto busca mejorar la reproducibilidad y el rigor científico en las ciencias del comportamiento y forenses.
+
+**Standardized Keywords (SEO):**
+`Neuroeconomics`, `Fraud Detection`, `Psychophysiology`, `Behavioral Economics`, `Forensic Psychology`, `Neurokit2`, `Signal Processing`, `Python`, `Open Science`, `Cognitive Bias`, `Deception Detection`.
+
+---
+
 ## Citation / Cite This Repository
 
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--8401--8018-green?logo=orcid)](https://orcid.org/0000-0002-8401-8018)

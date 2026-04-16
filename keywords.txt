@@ -1,11 +1,19 @@
-open-data, dataset, research
-open-data
-dataset
-research
-science
+Neuroeconomics, Fraud Detection, Psychophysiology, Behavioral Economics, Forensic Psychology, Signal Processing, Python, Open Data, NeuroKit2
+Neuroeconomics
+Fraud Detection
+Psychophysiology
+Behavioral Economics
+Forensic Psychology
+Signal Processing
+Python
+Open Data
+NeuroKit2
+Neuroscience
+Cognitive Bias
+Deception Detection
+Autonomic Response
 FAIR
-reproducibility
-open-science
-academic
-citation
+Open Science
+Reproducibility
+Academic Citation
 DOI

@@ -1,15 +1,24 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "name": "NeuroKit",
-  "description": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
+  "name": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
+  "description": "NeuroKit2 is a comprehensive Python toolbox for neurophysiological signal processing. It facilitates the analysis of ECG, EEG, EMG, and respiratory signals, with applications in Neuroeconomics and Fraud Detection to identify cognitive biases and deceptive behaviors. / NeuroKit2 es una caja de herramientas de Python para el procesamiento de señales neurofisiológicas, con aplicaciones en Neuroeconomía y Detección de Fraude.",
   "url": "https://github.com/juanmoisesd/NeuroKit",
   "sameAs": [
     "https://github.com/juanmoisesd/NeuroKit",
     "https://juanmoisesd.github.io/NeuroKit/"
   ],
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "keywords": [],
+  "keywords": [
+    "Neuroeconomics",
+    "Fraud Detection",
+    "Psychophysiology",
+    "Behavioral Economics",
+    "Forensic Psychology",
+    "Signal Processing",
+    "Python",
+    "Open Data"
+  ],
   "isAccessibleForFree": true,
   "creator": {
     "@type": "Person",
