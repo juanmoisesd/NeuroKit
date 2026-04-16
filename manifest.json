@@ -3,7 +3,7 @@
   "short_name": "NeuroKit",
   "description": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
   "version": "1.0.0",
-  "author": "Juan Moisés de la Serna Tuya",
+  "author": "Juan Moisés de la Serna",
   "orcid": "https://orcid.org/0000-0002-8401-8018",
   "license": "CC0-1.0",
   "repository": "https://github.com/juanmoisesd/NeuroKit",

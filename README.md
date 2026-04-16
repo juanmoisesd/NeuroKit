@@ -2,7 +2,7 @@
 
 [![Collection DOI](https://img.shields.io/badge/Collection_DOI-10.5281%2Fzenodo.19145316-blue?logo=zenodo)](https://doi.org/10.5281/zenodo.19145316) [![Author](https://img.shields.io/badge/ORCID-0000--0002--8401--8018-green?logo=orcid)](https://orcid.org/0000-0002-8401-8018)
 
-> Part of the **[Open Research Collection by Juan Moisés de la Serna Tuya](https://doi.org/10.5281/zenodo.19145316)** — 1,273+ datasets | DOI: 10.5281/zenodo.19145316
+> Part of the **[Open Research Collection by Juan Moisés de la Serna](https://doi.org/10.5281/zenodo.19145316)** — 1,273+ datasets | DOI: 10.5281/zenodo.19145316
 
 NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing
 
@@ -17,12 +17,12 @@ NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing
 If you use this repository in your research, please cite:
 
 **APA 7**
-> De la Serna Tuya, J. M. (2025). *NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing* [Dataset]. GitHub. https://github.com/juanmoisesd/NeuroKit
+> de la Serna, J. M. (2025). *NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing* [Dataset]. GitHub. https://github.com/juanmoisesd/NeuroKit
 
 **BibTeX**
 ```bibtex
 @dataset{delaserna2025_NeuroKit,
-  author    = {De la Serna Tuya, Juan Moisés},
+  author    = {de la Serna, Juan Moisés de la Serna},
   title     = {NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing},
   year      = {2025},
   publisher = {GitHub},
@@ -33,7 +33,7 @@ If you use this repository in your research, please cite:
 
 ### About the Author
 
-**Juan Moisés de la Serna Tuya** | Neuroeconomista forense | IA antifraude | UNIR
+**Juan Moisés de la Serna** | Neuroeconomista forense | IA antifraude | UNIR
 
 | ID | Link |
 |----|------|
@@ -41,7 +41,7 @@ If you use this repository in your research, please cite:
 | LinkedIn | [juanmoisesdelaserna](https://www.linkedin.com/in/juanmoisesdelaserna/) |
 | Scopus | [26632846700](https://www.scopus.com/authid/detail.uri?authorId=26632846700) |
 | ResearcherID | [M-8296-2019](https://www.webofscience.com/wos/author/record/M-8296-2019) |
-| ResearchGate | [Juan_De_La_Serna_Tuya](https://www.researchgate.net/profile/Juan_De_La_Serna_Tuya) |
+| ResearchGate | [Juan_de_la_Serna](https://www.researchgate.net/profile/Juan_de_la_Serna) |
 
 > 290+ scientific works · 500+ DOIs · 90+ open datasets · Top 1% Academia.edu
 
@@ -51,7 +51,7 @@ See also: [ABOUT_THE_AUTHOR.md](./ABOUT_THE_AUTHOR.md) · [CITATION_GUIDE.md](./
 
 If you use this repository in your research, please cite:
 
-> de la Serna, J. M. (2026). *Neurokit*. Universidad Internacional de La Rioja (UNIR).
+> de la Serna, J. M. (2026). *Neurokit*. Universidad Internacional de la Rioja(UNIR).
 > https://github.com/juanmoisesd/NeuroKit 10.5281/zenodo.19145316
 
 See `CITATION.cff` for formatted references.

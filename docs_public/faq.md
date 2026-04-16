@@ -23,4 +23,4 @@ A: Check the Zenodo record linked in the README.
 A: CSV, HTML. See data/ folder.
 
 **Q: Who maintains this dataset?**  
-A: Juan Moisés de la Serna Tuya (ORCID: https://orcid.org/0000-0002-8401-8018)
+A: Juan Moisés de la Serna (ORCID: https://orcid.org/0000-0002-8401-8018)

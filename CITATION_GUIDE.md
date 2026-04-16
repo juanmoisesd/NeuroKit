@@ -2,10 +2,10 @@
 
 ## Autor / Author
 
-**Dr. Juan Moisés de la Serna Tuya**
+**Dr. Juan Moisés de la Serna**
 - ORCID: https://orcid.org/0000-0002-8401-8018
 - LinkedIn: https://www.linkedin.com/in/juanmoisesdelaserna/
-- Institución: Universidad Internacional de La Rioja (UNIR), España
+- Institución: Universidad Internacional de la Rioja(UNIR), España
 - Email: juanmoises.delaserna@unir.net
 - Scopus: 26632846700 | ResearcherID: M-8296-2019
 
@@ -15,18 +15,18 @@
 
 ### APA 7ª Edición
 ```
-de la Serna Tuya, J. M. (2026). NeuroKit: Python Toolbox for Neurophysiological Signal Processing. GitHub. https://github.com/juanmoisesd/NeuroKit
+de la Serna, J. M. (2026). NeuroKit: Python Toolbox for Neurophysiological Signal Processing. GitHub. https://github.com/juanmoisesd/NeuroKit
 ```
 
 ### Chicago Autor-Fecha
 ```
-de la Serna Tuya, Juan Moisés. 2026. "NeuroKit: Python Toolbox for Neurophysiological Signal Processing." GitHub. https://github.com/juanmoisesd/NeuroKit.
+de la Serna, Juan Moisés de la Serna de la Serna. 2026. "NeuroKit: Python Toolbox for Neurophysiological Signal Processing." GitHub. https://github.com/juanmoisesd/NeuroKit.
 ```
 
 ### BibTeX
 ```bibtex
 @misc{delaserna2026_NeuroKit,
-  author       = {de la Serna Tuya, Juan Moisés},
+  author       = {de la Serna, Juan Moisés de la Serna de la Serna},
   title        = {NeuroKit: Python Toolbox for Neurophysiological Signal Processing},
   year         = {2026},
   publisher    = {GitHub / Zenodo},
@@ -38,7 +38,7 @@ de la Serna Tuya, Juan Moisés. 2026. "NeuroKit: Python Toolbox for Neurophysiol
 ### RIS Format
 ```
 TY  - DATA
-AU  - de la Serna Tuya, Juan Moisés
+AU  - de la Serna, Juan Moisés de la Serna de la Serna
 TI  - NeuroKit: Python Toolbox for Neurophysiological Signal Processing
 PY  - 2026
 PB  - GitHub
@@ -51,7 +51,7 @@ ER  -
 
 ### Vancouver / IEEE
 ```
-de la Serna Tuya JM. NeuroKit: Python Toolbox for Neurophysiological Signal Processing. GitHub; 2026. Available: https://github.com/juanmoisesd/NeuroKit. ORCID: 0000-0002-8401-8018.
+de la Serna JM. NeuroKit: Python Toolbox for Neurophysiological Signal Processing. GitHub; 2026. Available: https://github.com/juanmoisesd/NeuroKit. ORCID: 0000-0002-8401-8018.
 ```
 
 ---

@@ -1,5 +1,5 @@
 # Makefile for NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing
-# Author: Juan Moisés de la Serna Tuya | ORCID: https://orcid.org/0000-0002-8401-8018
+# Author: Juan Moisés de la Serna | ORCID: https://orcid.org/0000-0002-8401-8018
 
 .PHONY: all install validate cite clean help
 

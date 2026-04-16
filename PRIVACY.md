@@ -18,5 +18,5 @@ All data is sourced from publicly available datasets and publications. Original 
 
 For privacy concerns: juanmoises.delaserna@unir.net
 
-**Author:** Juan Moisés de la Serna Tuya  
+**Author:** Juan Moisés de la Serna
 **ORCID:** https://orcid.org/0000-0002-8401-8018

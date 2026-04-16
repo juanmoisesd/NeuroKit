@@ -17,5 +17,5 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Track page view (privacy-friendly, no external calls)
   console.log('Dataset page loaded: NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing');
-  console.log('Author: Juan Moisés de la Serna Tuya | ORCID: https://orcid.org/0000-0002-8401-8018');
+  console.log('Author: Juan Moisés de la Serna | ORCID: https://orcid.org/0000-0002-8401-8018');
 });

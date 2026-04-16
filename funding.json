@@ -2,7 +2,7 @@
   "funding": [
     {
       "funder": {
-        "name": "Universidad Internacional de La Rioja (UNIR)",
+        "name": "Universidad Internacional de la Rioja(UNIR)",
         "url": "https://www.unir.net",
         "type": "University"
       },
@@ -12,7 +12,7 @@
     }
   ],
   "author": {
-    "name": "Juan Moisés de la Serna Tuya",
+    "name": "Juan Moisés de la Serna",
     "orcid": "https://orcid.org/0000-0002-8401-8018"
   }
 }

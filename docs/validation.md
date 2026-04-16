@@ -2,7 +2,7 @@
 
 ## Dataset: NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing
 
-**Author:** Juan Moisés de la Serna Tuya  
+**Author:** Juan Moisés de la Serna
 **Date:** 2026-03-20  
 
 ---

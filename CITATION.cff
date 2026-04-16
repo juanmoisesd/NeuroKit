@@ -3,10 +3,10 @@ message: "If you use this software/dataset, please cite it as below."
 type: dataset
 title: "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing"
 authors:
-  - family-names: "de la Serna Tuya"
-    given-names: "Juan Moisés"
+  - family-names: "de la Serna"
+    given-names: "Juan Moisés de la Serna"
     orcid: "https://orcid.org/0000-0002-8401-8018"
-    affiliation: "Universidad Internacional de La Rioja (UNIR)"
+    affiliation: "Universidad Internacional de la Rioja(UNIR)"
     email: "juanmoises.delaserna@unir.net"
 repository-code: "https://github.com/juanmoisesd/NeuroKit"
 url: "https://juanmoisesd.github.io/NeuroKit/"
@@ -21,11 +21,11 @@ version: "1.0.0"
 date-released: "2026-03-20"
 references:
   - type: dataset
-    title: "Open Research Collection — Juan Moisés de la Serna Tuya"
+    title: "Open Research Collection — Juan Moisés de la Serna"
     doi: "10.5281/zenodo.19145316"
     url: "https://doi.org/10.5281/zenodo.19145316"
     authors:
-      - family-names: "De la Serna Tuya"
-        given-names: "Juan Moisés"
+      - family-names: "de la Serna"
+        given-names: "Juan Moisés de la Serna"
         orcid: "https://orcid.org/0000-0002-8401-8018"
     notes: "Master collection of 1273+ open research datasets"
