@@ -22,7 +22,7 @@ If you use this repository in your research, please cite:
 **BibTeX**
 ```bibtex
 @dataset{delaserna2025_NeuroKit,
-  author    = {de la Serna, Juan Moisés de la Serna},
+  author    = {de la Serna, Juan Moisés},
   title     = {NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing},
   year      = {2025},
   publisher = {GitHub},

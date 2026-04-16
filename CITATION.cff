@@ -4,7 +4,7 @@ type: dataset
 title: "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing"
 authors:
   - family-names: "de la Serna"
-    given-names: "Juan Moisés de la Serna"
+    given-names: "Juan Moisés"
     orcid: "https://orcid.org/0000-0002-8401-8018"
     affiliation: "Universidad Internacional de la Rioja(UNIR)"
     email: "juanmoises.delaserna@unir.net"
@@ -26,6 +26,6 @@ references:
     url: "https://doi.org/10.5281/zenodo.19145316"
     authors:
       - family-names: "de la Serna"
-        given-names: "Juan Moisés de la Serna"
+        given-names: "Juan Moisés"
         orcid: "https://orcid.org/0000-0002-8401-8018"
     notes: "Master collection of 1273+ open research datasets"

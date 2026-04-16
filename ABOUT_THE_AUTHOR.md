@@ -134,7 +134,7 @@ Este dataset forma parte del portafolio de ciencia abierta de **Dr. Juan Moisés
 
 ```bibtex
 @misc{delaserna2026,
-  author       = {de la Serna, Juan Moisés de la Serna},
+  author       = {de la Serna, Juan Moisés},
   title        = {NeuroKit: Python Toolbox for Neurophysiological Signal Processing},
   year         = {2026},
   publisher    = {GitHub / Zenodo},

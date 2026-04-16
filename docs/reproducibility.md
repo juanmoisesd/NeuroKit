@@ -27,7 +27,7 @@ cd NeuroKit
 
 ```bibtex
 @misc{delaserna2026,
-  author = {de la Serna, Juan Moisés de la Serna},
+  author = {de la Serna, Juan Moisés},
   title  = {NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing},
   year   = {2026},
   url    = {https://github.com/juanmoisesd/NeuroKit}

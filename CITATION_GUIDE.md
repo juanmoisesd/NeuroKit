@@ -20,13 +20,13 @@ de la Serna, J. M. (2026). NeuroKit: Python Toolbox for Neurophysiological Signa
 
 ### Chicago Autor-Fecha
 ```
-de la Serna, Juan Moisés de la Serna de la Serna. 2026. "NeuroKit: Python Toolbox for Neurophysiological Signal Processing." GitHub. https://github.com/juanmoisesd/NeuroKit.
+de la Serna, Juan Moisés. 2026. "NeuroKit: Python Toolbox for Neurophysiological Signal Processing." GitHub. https://github.com/juanmoisesd/NeuroKit.
 ```
 
 ### BibTeX
 ```bibtex
 @misc{delaserna2026_NeuroKit,
-  author       = {de la Serna, Juan Moisés de la Serna de la Serna},
+  author       = {de la Serna, Juan Moisés},
   title        = {NeuroKit: Python Toolbox for Neurophysiological Signal Processing},
   year         = {2026},
   publisher    = {GitHub / Zenodo},
@@ -38,7 +38,7 @@ de la Serna, Juan Moisés de la Serna de la Serna. 2026. "NeuroKit: Python Toolb
 ### RIS Format
 ```
 TY  - DATA
-AU  - de la Serna, Juan Moisés de la Serna de la Serna
+AU  - de la Serna, Juan Moisés
 TI  - NeuroKit: Python Toolbox for Neurophysiological Signal Processing
 PY  - 2026
 PB  - GitHub

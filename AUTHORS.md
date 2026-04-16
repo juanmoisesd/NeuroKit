@@ -10,4 +10,4 @@
 
 ## How to Cite
 
-de la Serna, Juan Moisés de la Serna. (2026). *NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing*. GitHub. https://github.com/juanmoisesd/NeuroKit
+de la Serna, Juan Moisés. (2026). *NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing*. GitHub. https://github.com/juanmoisesd/NeuroKit
