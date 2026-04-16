@@ -1,3 +1,7 @@
+==========
+NeuroKit2
+==========
+
 .. image:: https://raw.github.com/neuropsychology/NeuroKit/master/docs/img/banner.png
         :target: https://neuropsychology.github.io/NeuroKit/
 
