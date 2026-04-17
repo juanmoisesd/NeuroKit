@@ -1,16 +1,101 @@
 {
   "orcid": "0000-0002-8401-8018",
   "name": "Juan Moisés de la Serna Tuya",
-  "affiliation": "Universidad Internacional de La Rioja (UNIR)",
+  "given_name": "Juan Moisés",
+  "family_name": "de la Serna Tuya",
+  "other_names": [
+    "Juan Moises de la Serna",
+    "J.M. de la Serna",
+    "De la Serna Tuya, J. M.",
+    "Serna Tuya, J. M.",
+    "De la Serna, Juan Moisés",
+    "Serna Tuya, Juan Moisés",
+    "Tuya, Juan Moisés",
+    "Tuya, J. M.",
+    "de la Serna, J.M.",
+    "De la Serna, Juan",
+    "Juan M. de la Serna"
+  ],
+  "biography": "Dr. Juan Moisés de la Serna | Elite forensic neuroeconomist | Anti-fraud AI + biases in economic decision-making | Governments • Central banks • Big Four • Fortune 500. Professor and researcher at Universidad Internacional de La Rioja (UNIR) with over 25 years of expertise in cognitive neuroscience, behavioral economics, forensic psychology, and AI governance.",
+  "affiliation": {
+    "name": "Universidad Internacional de La Rioja (UNIR)",
+    "ror": "https://ror.org/0063t5s24",
+    "ringgold": "247680",
+    "address": "Logroño, Spain"
+  },
   "email": "juanmoises.delaserna@unir.net",
   "website": "https://juanmoisesdelaserna.es",
   "profile": "https://orcid.org/0000-0002-8401-8018",
-  "works": [
+  "external_identifiers": [
     {
-      "title": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
-      "type": "dataset",
-      "url": "https://github.com/juanmoisesd/NeuroKit",
-      "year": "2026"
+      "type": "Scopus Author ID",
+      "value": "26632846700",
+      "url": "http://www.scopus.com/inward/authorDetails.url?authorID=26632846700"
+    },
+    {
+      "type": "ResearcherID",
+      "value": "M-8296-2019",
+      "url": "https://www.webofscience.com/wos/author/record/M-8296-2019"
+    },
+    {
+      "type": "ISNI",
+      "value": "0000000136898471",
+      "url": "http://isni.org/isni/0000000136898471"
+    },
+    {
+      "type": "RENACYT",
+      "value": "P0168138"
+    },
+    {
+      "type": "Loop profile",
+      "value": "107568",
+      "url": "http://loop.frontiersin.org/people/107568/overview"
+    }
+  ],
+  "keywords": [
+    "Neuroeconomics",
+    "Forensic Psychology",
+    "Fraud Detection",
+    "AI Anti-Fraud",
+    "Decision-Making Biases",
+    "Behavioral Economics",
+    "Cognitive Neuroscience",
+    "AI Governance & Ethics",
+    "Policy Design",
+    "Strategic Decision Making",
+    "Mental Health",
+    "Neuropsychology"
+  ],
+  "education": [
+    {
+      "degree": "Doctor en Psicología",
+      "institution": "Universidad de Sevilla",
+      "year": "2005"
+    },
+    {
+      "degree": "Master's in Neuroscience and Behavioral Biology",
+      "institution": "Universidad Pablo de Olavide",
+      "year": "2002",
+      "ror": "https://ror.org/02z749649"
+    }
+  ],
+  "works_summary": {
+    "scientific_works": "290+",
+    "datasets": "1300+",
+    "collection_doi": "10.5281/zenodo.19145316"
+  },
+  "important_links": [
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.es/citations?user=PVb8eTIAAAAJ"
+    },
+    {
+      "name": "ResearchGate",
+      "url": "https://www.researchgate.net/profile/Juan_Moises_De_La_Serna"
+    },
+    {
+      "name": "Academia.edu",
+      "url": "https://unir.academia.edu/JuanMoisésdelaSernaTuya"
     }
   ]
 }
