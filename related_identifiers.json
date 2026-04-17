@@ -19,18 +19,18 @@
       "resource_type": "collection"
     },
     {
+      "identifier": "10.5281/zenodo.19613071",
+      "relation": "hasSupplement",
+      "scheme": "doi",
+      "resource_type": "software"
+    },
+    {
       "identifier": "https://orcid.org/0000-0002-8401-8018",
       "relation": "isCreatedBy",
       "scheme": "url",
       "resource_type": "person"
-    },
-    {
-      "identifier": "https://juanmoisesd.github.io/NeuroKit/",
-      "relation": "isDescribedBy",
-      "scheme": "url",
-      "resource_type": "webpage"
     }
   ],
-  "curator": "Juan Moisés de la Serna Tuya",
+  "author": "Juan Moisés de la Serna Tuya",
   "toolbox": "NeuroKit2"
 }
