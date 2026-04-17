@@ -15,7 +15,8 @@
     "name": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
     "url": "https://github.com/juanmoisesd/NeuroKit",
     "doi": "10.5281/zenodo.19613274",
-    "license": "MIT"
+    "license": "MIT",
+    "isPartOf": "10.5281/zenodo.19145316"
   },
   "wasDerivedFrom": {
     "description": "Curated distribution based on original NeuroKit2 research software.",
