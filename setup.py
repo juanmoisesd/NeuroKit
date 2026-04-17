@@ -49,6 +49,7 @@ test_requirements = requirements + [
     "plotly",
     "ts2vg",
     "wfdb",
+    "peakutils",
 ]
 
 # Setup
