@@ -11,48 +11,32 @@
 
 ---
 
-## Citar este Dataset / Cite This Dataset
+## Citar este Software / Cite This Software
 
 ### APA 7ª Edición
 ```
-de la Serna Tuya, J. M. (2026). NeuroKit: Python Toolbox for Neurophysiological Signal Processing. GitHub. https://github.com/juanmoisesd/NeuroKit
-```
-
-### Chicago Autor-Fecha
-```
-de la Serna Tuya, Juan Moisés. 2026. "NeuroKit: Python Toolbox for Neurophysiological Signal Processing." GitHub. https://github.com/juanmoisesd/NeuroKit.
+De la Serna Tuya, J. M. (2025). NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing (Version 0.2.12) [Software]. Zenodo. https://doi.org/10.5281/zenodo.19613274
 ```
 
 ### BibTeX
 ```bibtex
-@misc{delaserna2026_NeuroKit,
-  author       = {de la Serna Tuya, Juan Moisés},
-  title        = {NeuroKit: Python Toolbox for Neurophysiological Signal Processing},
-  year         = {2026},
-  publisher    = {GitHub / Zenodo},
+@software{delaserna2025_NeuroKit2,
+  author       = {De la Serna Tuya, Juan Moisés},
+  title        = {NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing},
+  version      = {0.2.12},
+  year         = {2025},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.19613274},
   url          = {https://github.com/juanmoisesd/NeuroKit},
-  note         = {ORCID: 0000-0002-8401-8018. Scopus: 26632846700. CC0 1.0}
+  note         = {ORCID: 0000-0002-8401-8018. Affiliation: UNIR}
 }
 ```
 
-### RIS Format
-```
-TY  - DATA
-AU  - de la Serna Tuya, Juan Moisés
-TI  - NeuroKit: Python Toolbox for Neurophysiological Signal Processing
-PY  - 2026
-PB  - GitHub
-UR  - https://github.com/juanmoisesd/NeuroKit
-N1  - ORCID: 0000-0002-8401-8018
-N2  - Scopus Author ID: 26632846700
-N3  - ResearcherID: M-8296-2019
-ER  -
-```
+---
 
-### Vancouver / IEEE
-```
-de la Serna Tuya JM. NeuroKit: Python Toolbox for Neurophysiological Signal Processing. GitHub; 2026. Available: https://github.com/juanmoisesd/NeuroKit. ORCID: 0000-0002-8401-8018.
-```
+## Citar Publicación Original / Cite Original Publication
+
+> Makowski, D., Pham, T., Lau, Z. J., Brammer, J. C., Lespinasse, F., Pham, H., Schölzel, C., & Chen, S. A. (2021). NeuroKit2: A Python toolbox for neurophysiological signal processing. *Behavior Research Methods*, 53(4), 1689-1696. https://doi.org/10.3758/s13428-020-01516-y
 
 ---
 
@@ -64,10 +48,6 @@ de la Serna Tuya JM. NeuroKit: Python Toolbox for Neurophysiological Signal Proc
 | 💼 LinkedIn | https://www.linkedin.com/in/juanmoisesdelaserna/ |
 | 💻 GitHub | https://github.com/juanmoisesd |
 | 🌐 Web | https://juanmoisesdelaserna.es |
-| 📊 Harvard Dataverse | https://dataverse.harvard.edu/dataverse/juanmoisesd |
 | 🔬 Zenodo | https://zenodo.org/search?q=de+la+serna+tuya |
-| 🗂️ OSF | https://osf.io/profile/ |
-| 📑 Figshare | https://figshare.com/authors/Juan_Moises_de_la_Serna/3501986 |
-| 🔭 ResearchGate | https://www.researchgate.net/profile/Juan-Serna-10 |
 | 📚 Scopus | https://www.scopus.com/authid/detail.uri?authorId=26632846700 |
 | 📖 WoS | https://www.webofscience.com/wos/author/record/M-8296-2019 |
