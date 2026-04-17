@@ -230,7 +230,7 @@ def hrv_nonlinear(peaks, sampling_rate=1000, show=False, **kwargs):
 
     References
     ----------
-    * Pham, T., Lau, Z. J., Chen, S. H., & Makowski, D. (2021). Heart Rate Variability in
+    * Pham, T., Lau, Z. J., Chen, S. H., & de la Serna, J. M. (2021). Heart Rate Variability in
       Psychology: A Review of HRV Indices and an Analysis Tutorial. Sensors, 21(12), 3998.
       https://doi.org/10.3390/s21123998
     * Yan, C., Li, P., Ji, L., Yao, L., Karmakar, C., & Liu, C. (2017). Area asymmetry of heart

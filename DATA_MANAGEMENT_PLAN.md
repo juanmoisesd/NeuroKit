@@ -2,9 +2,9 @@
 
 ## Project: NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing
 
-**Author:** Juan Moisés de la Serna Tuya  
+**Author:** Juan Moisés de la Serna
 **ORCID:** https://orcid.org/0000-0002-8401-8018  
-**Institution:** Universidad Internacional de La Rioja (UNIR)  
+**Institution:** Universidad Internacional de la Rioja(UNIR)
 **Date:** 2026-03-20  
 
 ---
@@ -37,9 +37,9 @@
 
 - Fully open access under CC0 1.0
 - No restrictions on reuse
-- Cite as: de la Serna Tuya, J.M. (2026). NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing. GitHub.
+- Cite as: de la Serna, J.M. (2026). NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing. GitHub.
 
 ## 5. Responsibilities
 
-- **Data Curator:** Juan Moisés de la Serna Tuya
+- **Data Curator:** Juan Moisés de la Serna
 - **Contact:** juanmoises.delaserna@unir.net

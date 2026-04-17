@@ -3,9 +3,9 @@
     "activity": "DataCompilation",
     "agent": {
       "type": "Person",
-      "name": "Juan Moisés de la Serna Tuya",
+      "name": "Juan Moisés de la Serna",
       "orcid": "https://orcid.org/0000-0002-8401-8018",
-      "affiliation": "Universidad Internacional de La Rioja (UNIR)"
+      "affiliation": "Universidad Internacional de la Rioja(UNIR)"
     },
     "startedAtTime": "2026-03-01T00:00:00Z",
     "endedAtTime": "2026-03-20T00:00:00Z"
@@ -26,7 +26,7 @@
   },
   "wasAttributedTo": {
     "type": "Person",
-    "name": "Juan Moisés de la Serna Tuya",
+    "name": "Juan Moisés de la Serna",
     "orcid": "https://orcid.org/0000-0002-8401-8018"
   }
 }

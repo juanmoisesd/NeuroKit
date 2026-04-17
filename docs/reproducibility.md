@@ -27,7 +27,7 @@ cd NeuroKit
 
 ```bibtex
 @misc{delaserna2026,
-  author = {de la Serna Tuya, Juan Moisés},
+  author = {de la Serna, Juan Moisés},
   title  = {NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing},
   year   = {2026},
   url    = {https://github.com/juanmoisesd/NeuroKit}
@@ -41,4 +41,4 @@ For analysis scripts (if included), see `requirements.txt` or `environment.yml`.
 
 ## 6. Contact
 
-Juan Moisés de la Serna Tuya | juanmoises.delaserna@unir.net | ORCID: https://orcid.org/0000-0002-8401-8018
+Juan Moisés de la Serna | juanmoises.delaserna@unir.net | ORCID: https://orcid.org/0000-0002-8401-8018

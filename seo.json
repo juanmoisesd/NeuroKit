@@ -13,19 +13,19 @@
   "isAccessibleForFree": true,
   "creator": {
     "@type": "Person",
-    "name": "Juan Moisés de la Serna Tuya",
+    "name": "Juan Moisés de la Serna",
     "identifier": "https://orcid.org/0000-0002-8401-8018",
     "sameAs": [
       "https://orcid.org/0000-0002-8401-8018",
       "https://www.linkedin.com/in/juanmoisesdelaserna/",
       "https://www.scopus.com/authid/detail.uri?authorId=26632846700",
       "https://www.webofscience.com/wos/author/record/M-8296-2019",
-      "https://www.researchgate.net/profile/Juan_De_La_Serna_Tuya",
+      "https://www.researchgate.net/profile/Juan_de_la_Serna",
       "https://github.com/juanmoisesd"
     ],
     "affiliation": {
       "@type": "Organization",
-      "name": "Universidad Internacional de La Rioja (UNIR)"
+      "name": "Universidad Internacional de la Rioja(UNIR)"
     }
   },
   "publisher": {

@@ -12,12 +12,12 @@
   "author": [
     {
       "@type": "Person",
-      "givenName": "Juan Moisés",
-      "familyName": "de la Serna Tuya",
+      "givenName": "Juan Moisés de la Serna",
+      "familyName": "de la Serna",
       "@id": "https://orcid.org/0000-0002-8401-8018",
       "affiliation": {
         "@type": "Organization",
-        "name": "Universidad Internacional de La Rioja (UNIR)"
+        "name": "Universidad Internacional de la Rioja(UNIR)"
       },
       "email": "juanmoises.delaserna@unir.net"
     }
@@ -31,12 +31,12 @@
   "maintainer": [
     {
       "@type": "Person",
-      "givenName": "Juan Moisés",
-      "familyName": "de la Serna Tuya"
+      "givenName": "Juan Moisés de la Serna",
+      "familyName": "de la Serna"
     }
   ],
   "funder": {
     "@type": "Organization",
-    "name": "Universidad Internacional de La Rioja (UNIR)"
+    "name": "Universidad Internacional de la Rioja(UNIR)"
   }
 }

@@ -1,8 +1,8 @@
 # 📖 Glosario / Glossary: Inteligencia Artificial y Ciencia de Datos / Artificial Intelligence & Data Science
 
-> **Definiciones originales de / Original definitions by:** Juan Moisés de la Serna Tuya
+> **Definiciones originales de / Original definitions by:** Juan Moisés de la Serna
 > **ORCID:** [0000-0002-8401-8018](https://orcid.org/0000-0002-8401-8018) | **LinkedIn:** [juanmoisesdelaserna](https://www.linkedin.com/in/juanmoisesdelaserna/)
-> **Institución / Institution:** Universidad Internacional de La Rioja (UNIR)
+> **Institución / Institution:** Universidad Internacional de la Rioja(UNIR)
 > **Scopus ID:** 26632846700 | **ResearcherID:** M-8296-2019
 
 ---

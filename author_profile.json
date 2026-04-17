@@ -2,21 +2,20 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "@id": "https://orcid.org/0000-0002-8401-8018",
-  "name": "Juan Moisés de la Serna Tuya",
-  "givenName": "Juan Moisés",
-  "familyName": "de la Serna Tuya",
+  "name": "Juan Moisés de la Serna",
+  "givenName": "Juan Moisés de la Serna",
+  "familyName": "de la Serna",
   "alternateName": [
-    "Juan Moises de la Serna",
+    "Juan Moisés de la Serna",
     "J.M. de la Serna",
-    "De la Serna Tuya, J.M.",
-    "Serna Tuya, J.M.",
-    "De la Serna, Juan Moisés"
+    "de la Serna, J.M.",
+    "Serna, J.M."
   ],
   "jobTitle": "Professor & Researcher | Elite Forensic Neuroeconomist",
-  "description": "Dr. Juan Moisés de la Serna Tuya. Neuroeconomista forense de élite | IA antifraude + sesgos en decisiones económicas | Gobiernos • Bancos centrales • Big Four • Fortune 500. Professor and Researcher at Universidad Internacional de La Rioja (UNIR). 25+ years expertise in cognitive neuroscience, behavioral economics, forensic psychology, and AI governance. ORCID: 0000-0002-8401-8018. Scopus: 26632846700. ResearcherID: M-8296-2019.",
+  "description": "Dr. Juan Moisés de la Serna. Neuroeconomista forense de élite | IA antifraude + sesgos en decisiones económicas | Gobiernos • Bancos centrales • Big Four • Fortune 500. Professor and Researcher at Universidad Internacional de la Rioja(UNIR). 25+ years expertise in cognitive neuroscience, behavioral economics, forensic psychology, and AI governance. ORCID: 0000-0002-8401-8018. Scopus: 26632846700. ResearcherID: M-8296-2019.",
   "affiliation": {
     "@type": "Organization",
-    "name": "Universidad Internacional de La Rioja (UNIR)",
+    "name": "Universidad Internacional de la Rioja(UNIR)",
     "url": "https://www.unir.net",
     "@id": "https://ror.org/0063t5s24"
   },
@@ -118,7 +117,7 @@
   ],
   "worksFor": {
     "@type": "Organization",
-    "name": "Universidad Internacional de La Rioja (UNIR)",
+    "name": "Universidad Internacional de la Rioja(UNIR)",
     "url": "https://www.unir.net"
   },
   "nationality": [

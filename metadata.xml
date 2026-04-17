@@ -3,8 +3,8 @@
           xmlns:dcterms="http://purl.org/dc/terms/"
           xmlns:datacite="http://datacite.org/schema/kernel-4">
   <dc:title>NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing</dc:title>
-  <dc:creator>Juan Moisés de la Serna Tuya</dc:creator>
-  <dc:creator id="orcid:0000-0002-8401-8018">Juan Moisés de la Serna Tuya</dc:creator>
+  <dc:creator>Juan Moisés de la Serna</dc:creator>
+  <dc:creator id="orcid:0000-0002-8401-8018">Juan Moisés de la Serna</dc:creator>
   <dc:publisher>GitHub</dc:publisher>
   <dc:date>2026-03-20</dc:date>
   <dc:type>Dataset</dc:type>
@@ -22,7 +22,7 @@
   <dcterms:modified>2026-03-20</dcterms:modified>
   <dcterms:isPartOf>https://github.com/juanmoisesd</dcterms:isPartOf>
   <datacite:contributor contributorType="DataManager">
-    <datacite:contributorName>Juan Moisés de la Serna Tuya</datacite:contributorName>
+    <datacite:contributorName>Juan Moisés de la Serna</datacite:contributorName>
     <datacite:nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">https://orcid.org/0000-0002-8401-8018</datacite:nameIdentifier>
   </datacite:contributor>
 </metadata>

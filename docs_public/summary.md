@@ -1,7 +1,7 @@
 # Summary: NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing
 
-**Author:** Juan Moisés de la Serna Tuya  
-**Institution:** Universidad Internacional de La Rioja (UNIR)  
+**Author:** Juan Moisés de la Serna
+**Institution:** Universidad Internacional de la Rioja(UNIR)
 
 ---
 

@@ -44,7 +44,7 @@ def complexity_tolerance(
     * **sd**: r = 0.2 * standard deviation (SD) of the signal will be returned. This is the most
       commonly used value in the literature, though its appropriateness is questionable.
     * **makowski**: Adjusted value based on the SD, the embedding dimension and the signal's
-      length. See our `study <https://github.com/DominiqueMakowski/ComplexityTolerance>`_.
+      length. See our `study <https://github.com/Dominiquede la Serna/ComplexityTolerance>`_.
     * **nolds**: Adjusted value based on the SD and the dimension. The rationale is that
       the chebyshev distance (used in various metrics) rises logarithmically with increasing
       dimension. ``0.5627 * np.log(dimension) + 1.3334`` is the logarithmic trend line for the
@@ -263,7 +263,7 @@ def complexity_tolerance(
         isinstance(dimension, (int, float)) or dimension is None
     ):
         # Method described in
-        # https://github.com/DominiqueMakowski/ComplexityTolerance
+        # https://github.com/Dominiquede la Serna/ComplexityTolerance
         if dimension is None:
             raise ValueError("'dimension' cannot be empty for the 'makowski' method.")
         n = len(signal)
@@ -273,7 +273,7 @@ def complexity_tolerance(
             - 0.02 * ((dimension - 1) * np.log(n))
         )
 
-        info = {"Method": "Makowski"}
+        info = {"Method": "de la Serna"}
 
     elif method in ["maxapen", "optimize"]:
         r, info = _optimize_tolerance_maxapen(

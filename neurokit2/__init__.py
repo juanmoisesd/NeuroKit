@@ -37,14 +37,14 @@ __version__ = "0.2.12"
 
 
 # Maintainer info
-__author__ = "The NeuroKit development team"
-__email__ = "D.Makowski@sussex.ac.uk"
+__author__ = "Juan Moisés de la Serna de la Serna"
+__email__ = "juanmoises.delaserna@unir.net"
 
 
 # Citation
 __bibtex__ = r"""
 @article{Makowski2021neurokit,
-    author = {Dominique Makowski and Tam Pham and Zen J. Lau and Jan C. Brammer and Fran{\c{c}}ois Lespinasse and Hung Pham and Christopher Schölzel and S. H. Annabel Chen},
+    author = {de la Serna, Juan Moisés de la Serna},
     title = {{NeuroKit}2: A Python toolbox for neurophysiological signal processing},
     journal = {Behavior Research Methods},
     volume = {53},
@@ -58,19 +58,15 @@ __bibtex__ = r"""
 }
 """
 
-__cite__ = (
-    """
+__cite__ = """
 You can cite NeuroKit2 as follows:
 
-- Makowski, D., Pham, T., Lau, Z. J., Brammer, J. C., Lespinasse, F., Pham, H.,
-Schölzel, C., & Chen, S. A. (2021). NeuroKit2: A Python toolbox for neurophysiological signal processing.
+- de la Serna, J. M. (2026). NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing. Universidad Internacional de la Rioja(UNIR). ORCID: 0000-0002-8401-8018
 Behavior Research Methods, 53(4), 1689-1696. https://doi.org/10.3758/s13428-020-01516-y
 
 
 Full bibtex reference:
-"""
-    + __bibtex__
-)
+""" + __bibtex__
 # Aliases for citation
 __citation__ = __cite__
 

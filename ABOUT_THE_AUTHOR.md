@@ -2,7 +2,7 @@
 
 <div align="center">
 
-## Dr. Juan Moisés de la Serna Tuya
+## Dr. Juan Moisés de la Serna
 
 ### Elite Forensic Neuroeconomist | AI Anti-Fraud | Behavioral Economics | Decision-Making Biases
 
@@ -21,7 +21,7 @@
 
 ## 👤 Quién es Juan Moisés de la Serna / Who is Juan Moisés de la Serna
 
-**Dr. Juan Moisés de la Serna Tuya** es Profesor e Investigador en la **Universidad Internacional de La Rioja (UNIR)** con más de **25 años de experiencia** en neurociencia cognitiva, economía conductual, psicología forense y gobernanza de IA.
+**Dr. Juan Moisés de la Serna** es Profesor e Investigador en la **Universidad Internacional de la Rioja(UNIR)** con más de **25 años de experiencia** en neurociencia cognitiva, economía conductual, psicología forense y gobernanza de IA.
 
 Es ponente internacional y comunicador científico que asesora a **gobiernos, bancos centrales, Big Four y empresas Fortune 500** en:
 - 🧠 **Detección de fraudes** con IA y neurociencia cognitiva
@@ -31,7 +31,7 @@ Es ponente internacional y comunicador científico que asesora a **gobiernos, ba
 
 ---
 
-*Dr. Juan Moisés de la Serna Tuya is a Professor and Researcher at **Universidad Internacional de La Rioja (UNIR)**, with 25+ years of expertise in cognitive neuroscience, behavioral economics, forensic psychology, and AI governance. He is an international speaker advising governments, central banks, Big Four firms, and Fortune 500 companies on fraud detection using AI, decision-making biases in high-stakes economic contexts, and AI ethics & governance.*
+*Dr. Juan Moisés de la Serna is a Professor and Researcher at **Universidad Internacional de la Rioja(UNIR)**, with 25+ years of expertise in cognitive neuroscience, behavioral economics, forensic psychology, and AI governance. He is an international speaker advising governments, central banks, Big Four firms, and Fortune 500 companies on fraud detection using AI, decision-making biases in high-stakes economic contexts, and AI ethics & governance.*
 
 ---
 
@@ -123,7 +123,7 @@ Diseño de Políticas      · Toma de Decisiones        · Economía Experimenta
 
 ## 📂 Sobre este Dataset / About This Dataset
 
-Este dataset forma parte del portafolio de ciencia abierta de **Dr. Juan Moisés de la Serna Tuya**:
+Este dataset forma parte del portafolio de ciencia abierta de **Dr. Juan Moisés de la Serna**:
 
 - **Título:** NeuroKit: Python Toolbox for Neurophysiological Signal Processing
 - **Repositorio:** https://github.com/juanmoisesd/NeuroKit
@@ -134,7 +134,7 @@ Este dataset forma parte del portafolio de ciencia abierta de **Dr. Juan Moisés
 
 ```bibtex
 @misc{delaserna2026,
-  author       = {de la Serna Tuya, Juan Moisés},
+  author       = {de la Serna, Juan Moisés},
   title        = {NeuroKit: Python Toolbox for Neurophysiological Signal Processing},
   year         = {2026},
   publisher    = {GitHub / Zenodo},
@@ -154,7 +154,7 @@ Este dataset forma parte del portafolio de ciencia abierta de **Dr. Juan Moisés
 | 💼 LinkedIn | https://www.linkedin.com/in/juanmoisesdelaserna/ |
 | 🆔 ORCID | https://orcid.org/0000-0002-8401-8018 |
 | 🐦 Twitter/X | [@juanmoises](https://twitter.com/juanmoises) |
-| 🏛️ Institución | Universidad Internacional de La Rioja (UNIR), España |
+| 🏛️ Institución | Universidad Internacional de la Rioja(UNIR), España |
 
 ---
 
@@ -166,7 +166,7 @@ Para propuestas de colaboración, revisión entre pares o consultoría:
 **📧 juanmoises.delaserna@unir.net** | **💼 [LinkedIn](https://www.linkedin.com/in/juanmoisesdelaserna/)**
 
 > *"La ciencia abierta no es solo una metodología — es un compromiso con el conocimiento como bien público."*
-> — Juan Moisés de la Serna Tuya
+> — Juan Moisés de la Serna
 
 ---
 
@@ -177,6 +177,6 @@ Para propuestas de colaboración, revisión entre pares o consultoría:
 [![Open Science](https://img.shields.io/badge/Open%20Science-100%25-blue)](https://orcid.org/0000-0002-8401-8018)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/juanmoisesdelaserna/)
 
-*© 2026 Juan Moisés de la Serna Tuya · Universidad Internacional de La Rioja (UNIR) · España & Perú*
+*© 2026 Juan Moisés de la Serna · Universidad Internacional de la Rioja(UNIR) · España & Perú*
 
 </div>

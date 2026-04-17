@@ -2,11 +2,11 @@
 
 ## Institution
 
-This work was developed at the **Universidad Internacional de La Rioja (UNIR)**.
+This work was developed at the **Universidad Internacional de la Rioja(UNIR)**.
 
 ## Author
 
-**Juan Moisés de la Serna Tuya**
+**Juan Moisés de la Serna**
 - ORCID: https://orcid.org/0000-0002-8401-8018
 - Website: https://juanmoisesdelaserna.es
 

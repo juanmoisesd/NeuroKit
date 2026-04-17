@@ -26,10 +26,10 @@ def find_version():
 
 
 # Dependencies
-requirements = ["requests", "numpy", "pandas", "scipy", "scikit-learn>=1.0.0", "matplotlib>=3.5.0", "PyWavelets>=1.4.0"]
+requirements = ["requests", "numpy<2.0.0", "pandas", "scipy", "scikit-learn>=1.0.0", "matplotlib>=3.5.0", "PyWavelets>=1.4.0"]
 
 # Optional Dependencies (only needed / downloaded for testing purposes, for instance to test against some other packages)
-setup_requirements = ["pytest-runner", "numpy"]
+setup_requirements = ["pytest-runner", "numpy<2.0.0"]
 test_requirements = requirements + [
     "pytest",
     "coverage",
@@ -63,8 +63,10 @@ setup(
     long_description_content_type="text/x-rst",
     license="MIT license",
     # The name and contact of a maintainer
-    author="Dominique Makowski",
-    author_email="D.Makowski@sussex.ac.uk",
+    author="Juan Moisés de la Serna de la Serna",
+    author_email="juanmoises.delaserna@unir.net",
+    maintainer="Dominique Makowski",
+    maintainer_email="D.Makowski@sussex.ac.uk",
     # Dependencies
     install_requires=requirements,
     setup_requires=setup_requirements,

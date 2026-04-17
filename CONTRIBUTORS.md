@@ -6,7 +6,7 @@ Contributions to this repository are welcome. Please see [CONTRIBUTING.md](CONTR
 
 | Name | Role | ORCID |
 |------|------|-------|
-| Juan Moisés de la Serna Tuya | Principal Author & Maintainer | [0000-0002-8401-8018](https://orcid.org/0000-0002-8401-8018) |
+| Juan Moisés de la Serna | Principal Author & Maintainer | [0000-0002-8401-8018](https://orcid.org/0000-0002-8401-8018) |
 
 ## How to Contribute
 

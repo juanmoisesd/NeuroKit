@@ -2,7 +2,7 @@
 
 ## Dataset: NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing
 
-**Author:** Juan Moisés de la Serna Tuya | ORCID: https://orcid.org/0000-0002-8401-8018
+**Author:** Juan Moisés de la Serna | ORCID: https://orcid.org/0000-0002-8401-8018
 
 ---
 
@@ -33,6 +33,6 @@ Users of this dataset may:
 
 For questions about data use: juanmoises.delaserna@unir.net
 
-**Author:** Juan Moisés de la Serna Tuya
-**Institution:** Universidad Internacional de La Rioja (UNIR)
+**Author:** Juan Moisés de la Serna
+**Institution:** Universidad Internacional de la Rioja(UNIR)
 **ORCID:** https://orcid.org/0000-0002-8401-8018

@@ -8,17 +8,17 @@
   "identifier": "https://github.com/juanmoisesd/NeuroKit",
   "author": {
     "@type": "Person",
-    "name": "Juan Moisés de la Serna Tuya",
+    "name": "Juan Moisés de la Serna",
     "@id": "https://orcid.org/0000-0002-8401-8018",
     "affiliation": {
       "@type": "Organization",
-      "name": "Universidad Internacional de La Rioja (UNIR)"
+      "name": "Universidad Internacional de la Rioja(UNIR)"
     },
     "email": "juanmoises.delaserna@unir.net"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Universidad Internacional de La Rioja (UNIR)",
+    "name": "Universidad Internacional de la Rioja(UNIR)",
     "url": "https://www.unir.net"
   },
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
