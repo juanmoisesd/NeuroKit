@@ -230,6 +230,3 @@ Fixes
 ------------------
 
 * First release on PyPI.
-
-
-
