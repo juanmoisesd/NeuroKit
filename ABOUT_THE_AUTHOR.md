@@ -49,10 +49,11 @@ Es ponente internacional y comunicador científico que asesora a **gobiernos, ba
 ## 🔬 Áreas de Investigación / Research Areas
 
 ```
-Neuroeconomía            · Psicología Forense        · Salud Mental
-Detección de Fraudes     · Sesgos en Decisiones      · Economía Conductual
-Neuropsicología          · Ética e IA                · Neurociencia Cognitiva
-Diseño de Políticas      · Toma de Decisiones        · Economía Experimental
+Neuroeconomics (Neuroeconomía)         · Fraud Detection (Detección de Fraudes)
+Psychophysiology (Psicofisiología)     · Behavioral Economics (Economía Conductual)
+Forensic Psychology (Psicología Forense)· Signal Processing (Procesamiento de Señales)
+Neuropsychology (Neuropsicología)       · AI Ethics (Ética e IA)
+Cognitive Biases (Sesgos Cognitivos)   · Decision Making (Toma de Decisiones)
 ```
 
 ---

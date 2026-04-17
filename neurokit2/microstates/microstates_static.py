@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import matplotlib.gridspec
 import numpy as np
+import scipy.integrate
 import pandas as pd
 from matplotlib import pyplot as plt
 
@@ -216,6 +217,6 @@ def _microstates_lifetime(microstates, out=None):
     if out is None:
         out = {}
     for s in states:
-        out[str(s) + "_LifetimeDistribution"] = np.trapz(lifetimes[s])
+        out[str(s) + "_LifetimeDistribution"] = scipy.integrate.trapezoid(lifetimes[s])
 
     return out, lifetimes

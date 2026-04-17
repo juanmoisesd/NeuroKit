@@ -24,6 +24,12 @@
 **NeuroKit2** is a user-friendly package providing easy access to advanced biosignal processing routines.
 Researchers and clinicians without extensive knowledge of programming or biomedical signal processing
 can **analyze physiological data with only two lines of code**.
+Academic SEO & Research Context
+------------------------------
+NeuroKit2 is a comprehensive Python toolbox for neurophysiological signal processing, designed to facilitate the analysis of physiological data in research contexts. In the field of **Neuroeconomics**, physiological markers like ECG, EEG, and EDA are critical for understanding the biological underpinnings of economic decision-making and identifying cognitive biases. Furthermore, NeuroKit2 supports the development of advanced algorithms for **Fraud Detection** by analyzing autonomic responses associated with deceptive behavior. By providing high-quality, open-source tools, this project aims to enhance reproducibility and scientific rigor in behavioral and forensic sciences.
+
+**Keywords**: `Neuroeconomics`, `Fraud Detection`, `Psychophysiology`, `Behavioral Economics`, `Forensic Psychology`, `Neurokit2`, `Signal Processing`, `Python`, `Open Science`.
+
 
 
 Quick Example
@@ -634,8 +640,8 @@ Disclaimer
 *The authors do not provide any warranty. If this software causes your keyboard to blow up, your brain to liquefy, your toilet to clog or a zombie plague to break loose, the authors CANNOT IN ANY WAY be held responsible.*
 
 Contributors & Acknowledgments
-==============================
+------------------------------
 
 NeuroKit2 is developed and maintained by the neuropsychology research community. The full list of contributors is available on GitHub <https://github.com/neuropsychology/NeuroKit/graphs/contributors>_.
-h
+
 **Contributing**: If you want to contribute to NeuroKit2, please visit the GitHub repository

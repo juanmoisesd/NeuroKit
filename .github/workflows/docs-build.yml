@@ -45,7 +45,7 @@ jobs:
                   pip install cvxopt
                   pip install ts2vg
                   pip install pickleshare
-                  pip install https://github.com/neuropsychology/neurokit/zipball/dev
+                  pip install .
 
             - name: Build documentation 📜
               run: |
