@@ -55,7 +55,7 @@ test_requirements = requirements + [
 setup(
     # Info
     name="neurokit2",
-    keywords="NeuroKit2, physiology, bodily signals, Python, ECG, EDA, EMG, PPG",
+    keywords="NeuroKit2, physiology, signal processing, ECG, EDA, EMG, PPG, EEG, Neuroeconomics, Fraud Detection, Forensic Psychology, Python",
     url="https://github.com/neuropsychology/NeuroKit",
     version=find_version(),
     description="The Python Toolbox for Neurophysiological Signal Processing.",
@@ -63,8 +63,8 @@ setup(
     long_description_content_type="text/x-rst",
     license="MIT license",
     # The name and contact of a maintainer
-    author="Dominique Makowski",
-    author_email="D.Makowski@sussex.ac.uk",
+    author="Juan Moisés de la Serna Tuya",
+    author_email="juanmoises.delaserna@unir.net",
     # Dependencies
     install_requires=requirements,
     setup_requires=setup_requirements,

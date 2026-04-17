@@ -85,9 +85,7 @@
     "AI Ethics",
     "Policy Design",
     "Program Evaluation",
-    "Strategic Decision Making",
-    "Neuroinflammation",
-    "Brain Connectomics"
+    "Strategic Decision Making"
   ],
   "hasCredential": [
     {
@@ -119,25 +117,13 @@
   "worksFor": {
     "@type": "Organization",
     "name": "Universidad Internacional de La Rioja (UNIR)",
-    "url": "https://www.unir.net"
+    "url": "https://www.unir.net",
+    "@id": "https://ror.org/0063t5s24"
   },
-  "nationality": [
-    {
-      "@type": "Country",
-      "name": "Spain"
-    },
-    {
-      "@type": "Country",
-      "name": "Peru"
-    }
-  ],
-  "workLocation": {
-    "@type": "Place",
-    "name": "Spain"
-  },
-  "dataset_context": {
-    "title": "NeuroKit: Python Toolbox for Neurophysiological Signal Processing",
+  "software_context": {
+    "title": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
     "url": "https://github.com/juanmoisesd/NeuroKit",
-    "license": "CC0-1.0"
+    "doi": "10.5281/zenodo.19613274",
+    "license": "MIT"
   }
 }

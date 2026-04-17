@@ -1,40 +1,40 @@
 {
   "@context": "https://schema.org",
-  "@type": "Dataset",
+  "@type": "SoftwareSourceCode",
   "name": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
-  "description": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
+  "description": "NeuroKit2 is an open-source Python toolbox designed for the comprehensive processing and analysis of neurophysiological signals (ECG, EEG, EDA, EMG, PPG). This distribution is part of a reproducibility initiative.",
   "url": "https://github.com/juanmoisesd/NeuroKit",
-  "sameAs": "https://juanmoisesd.github.io/NeuroKit/",
-  "identifier": "https://github.com/juanmoisesd/NeuroKit",
+  "sameAs": [
+    "https://juanmoisesd.github.io/NeuroKit/",
+    "https://doi.org/10.5281/zenodo.19613274"
+  ],
+  "identifier": "https://doi.org/10.5281/zenodo.19613274",
   "author": {
     "@type": "Person",
     "name": "Juan Moisés de la Serna Tuya",
     "@id": "https://orcid.org/0000-0002-8401-8018",
     "affiliation": {
       "@type": "Organization",
-      "name": "Universidad Internacional de La Rioja (UNIR)"
+      "name": "Universidad Internacional de La Rioja (UNIR)",
+      "@id": "https://ror.org/0063t5s24"
     },
     "email": "juanmoises.delaserna@unir.net"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Universidad Internacional de La Rioja (UNIR)",
-    "url": "https://www.unir.net"
+    "name": "Zenodo",
+    "url": "https://zenodo.org"
   },
-  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "datePublished": "2026-03-20",
-  "dateModified": "2026-03-20",
-  "keywords": "open-data, dataset, research",
+  "license": "https://opensource.org/licenses/MIT",
+  "datePublished": "2025-02-12",
+  "dateModified": "2025-02-12",
+  "keywords": "neurophysiology, signal-processing, ECG, EEG, EDA, PPG, EMG, Python, open-science, reproducibility",
   "inLanguage": [
     "es",
     "en"
   ],
   "isAccessibleForFree": true,
-  "distribution": [
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "contentUrl": "https://github.com/juanmoisesd/NeuroKit"
-    }
-  ]
+  "programmingLanguage": "Python",
+  "runtimePlatform": "Python 3",
+  "version": "0.2.12"
 }

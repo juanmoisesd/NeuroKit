@@ -150,7 +150,7 @@ Citation
 ---------
 
 .. image:: https://zenodo.org/badge/218212111.svg
-   :target: https://zenodo.org/badge/latestdoi/218212111
+   :target: https://doi.org/10.5281/zenodo.19613274
 
 .. image:: https://img.shields.io/badge/details-authors-purple.svg?colorB=9C27B0
    :target: https://neuropsychology.github.io/NeuroKit/authors.html

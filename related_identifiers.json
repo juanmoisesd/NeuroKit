@@ -29,6 +29,12 @@
       "relation": "isCreatedBy",
       "scheme": "url",
       "resource_type": "person"
+    },
+    {
+      "identifier": "https://juanmoisesd.github.io/NeuroKit/",
+      "relation": "isDescribedBy",
+      "scheme": "url",
+      "resource_type": "webpage"
     }
   ],
   "author": "Juan Moisés de la Serna Tuya",

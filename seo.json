@@ -6,9 +6,10 @@
   "url": "https://github.com/juanmoisesd/NeuroKit",
   "sameAs": [
     "https://github.com/juanmoisesd/NeuroKit",
-    "https://juanmoisesd.github.io/NeuroKit/"
+    "https://juanmoisesd.github.io/NeuroKit/",
+    "https://doi.org/10.5281/zenodo.19613274"
   ],
-  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "license": "https://opensource.org/licenses/MIT",
   "keywords": [
     "neurophysiology",
     "signal-processing",
@@ -18,7 +19,9 @@
     "PPG",
     "EMG",
     "Python",
-    "open-science"
+    "open-science",
+    "Neuroeconomics",
+    "Fraud Detection"
   ],
   "isAccessibleForFree": true,
   "creator": {
@@ -35,12 +38,14 @@
     ],
     "affiliation": {
       "@type": "Organization",
-      "name": "Universidad Internacional de La Rioja (UNIR)"
+      "name": "Universidad Internacional de La Rioja (UNIR)",
+      "@id": "https://ror.org/0063t5s24"
     }
   },
   "publisher": {
     "@type": "Organization",
-    "name": "GitHub"
+    "name": "Zenodo",
+    "url": "https://zenodo.org"
   },
   "datePublished": "2025-02-12",
   "inLanguage": [
