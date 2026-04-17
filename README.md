@@ -56,6 +56,9 @@ If you use this repository in your research, please cite:
 
 See `CITATION.cff` for formatted references.
 
+## Mass Open Science Publication
+This project has been fully archived on Zenodo. Individual DOIs for every data file and analysis script can be found in [published_dois.csv](./published_dois.csv).
+
 ## Overview
 This repository contains data and resources related to **NeuroKit**. It is part of an open science initiative to share research findings and datasets with the global scientific community.
 

@@ -27,7 +27,7 @@ can **analyze physiological data with only two lines of code**.
 
 
 Quick Example
-------------------
+=============
 
 .. code-block:: python
 
@@ -46,7 +46,7 @@ Quick Example
 And **boom** 💥 your analysis is done 😎
 
 Download
---------
+========
 
 You can download NeuroKit2 from `PyPI <https://pypi.org/project/neurokit2/>`_
 
@@ -63,7 +63,7 @@ or `conda-forge <https://anaconda.org/conda-forge/neurokit2>`_
 If you're not sure what to do, read our `installation guide <https://neuropsychology.github.io/NeuroKit/installation.html>`_.
 
 Contributing
--------------
+============
 
 .. image:: https://img.shields.io/badge/License-MIT-blue.svg
         :target: https://github.com/neuropsychology/NeuroKit/blob/master/LICENSE
@@ -86,7 +86,7 @@ Also, if you have developed new signal processing methods or algorithms and you 
 You have spotted a **mistake**? An **error** in a formula or code? OR there is just a step that seems strange and you don't understand? **Please let us know!** We are human beings, and we'll appreciate any inquiry.
 
 Documentation
-----------------
+=============
 
 .. image:: https://img.shields.io/badge/documentation-online-brightgreen.svg
         :target: https://neuropsychology.github.io/NeuroKit/
@@ -116,7 +116,7 @@ Documentation
 Click on the links above and check out our tutorials:
 
 General
-^^^^^^^^^^
+-------
 
 -  `Get familiar with Python in 10 minutes <https://neuropsychology.github.io/NeuroKit/resources/learn_python.html>`_
 -  `Recording good quality signals <https://neuropsychology.github.io/NeuroKit/resources/recording.html>`_
@@ -126,7 +126,7 @@ General
 
 
 Examples
-^^^^^^^^^^
+--------
 
 -  `Simulate Artificial Physiological Signals <https://neuropsychology.github.io/NeuroKit/examples/signal_simulation/signal_simulation.html>`_
 -  `Customize your Processing Pipeline <https://neuropsychology.github.io/NeuroKit/examples/bio_custom/bio_custom.html>`_
@@ -147,7 +147,7 @@ Examples
         :target: https://neuropsychology.github.io/NeuroKit/
 
 Citation
----------
+========
 
 .. image:: https://zenodo.org/badge/218212111.svg
    :target: https://zenodo.org/badge/latestdoi/218212111
@@ -192,7 +192,7 @@ The **NeuroKit2** paper can be found `here <https://doi.org/10.3758/s13428-020-0
 
 ..
     Design
-    --------
+    ======
 
     *NeuroKit2* is designed to provide a **consistent**, **accessible** yet **powerful** and **flexible** API.
 
@@ -202,10 +202,10 @@ The **NeuroKit2** paper can be found `here <https://doi.org/10.3758/s13428-020-0
 
 
 Physiological Data Preprocessing
----------------------------------
+================================
 
 Simulate physiological signals
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 
 You can easily simulate artificial ECG (also `12-Lead multichannel ECGs <https://neuropsychology.github.io/NeuroKit/examples/ecg_generate_12leads/ecg_generate_12leads.html>`_), PPG, RSP, EDA, and EMG signals to test your scripts and algorithms.
 
@@ -236,7 +236,7 @@ You can easily simulate artificial ECG (also `12-Lead multichannel ECGs <https:/
 
 
 Electrodermal Activity (EDA/GSR)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------------
 
 .. code-block:: python
 
@@ -254,7 +254,7 @@ Electrodermal Activity (EDA/GSR)
 
 
 Cardiac activity (ECG)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------
 
 .. code-block:: python
 
@@ -273,7 +273,7 @@ Cardiac activity (ECG)
 
 
 Respiration (RSP)
-^^^^^^^^^^^^^^^^^^^
+-----------------
 
 .. code-block:: python
 
@@ -292,7 +292,7 @@ Respiration (RSP)
 
 
 Photoplethysmography (PPG/BVP)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 
 .. code-block:: python
 
@@ -310,7 +310,7 @@ Photoplethysmography (PPG/BVP)
 
 
 Electromyography (EMG)
-^^^^^^^^^^^^^^^^^^^^^^^
+----------------------
 
 .. code-block:: python
 
@@ -329,7 +329,7 @@ Electromyography (EMG)
 
 
 Electrooculography (EOG)
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------
 
 .. code-block:: python
 
@@ -348,13 +348,13 @@ Electrooculography (EOG)
 
 
 Electrogastrography (EGG)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------
 
 Consider `helping us develop it <https://neuropsychology.github.io/NeuroKit/resources/contributing.html>`_!
 
 
 Physiological Data Analysis
-----------------------------
+===========================
 
 The analysis of physiological data usually comes in two types, **event-related** or **interval-related**.
 
@@ -364,7 +364,7 @@ The analysis of physiological data usually comes in two types, **event-related**
 
 
 Event-related
-^^^^^^^^^^^^^^
+-------------
 
 This type of analysis refers to physiological changes immediately occurring in response to an event.
 For instance, physiological changes following the presentation of a stimulus (e.g., an emotional stimulus) are indicated by
@@ -376,7 +376,7 @@ In this case, using `bio_analyze()` will compute features like rate changes, pea
 - `Event-related example <https://neuropsychology.github.io/NeuroKit/examples/bio_eventrelated/bio_eventrelated.html>`_
 
 Interval-related
-^^^^^^^^^^^^^^^^^
+----------------
 
 This type of analysis refers to the physiological characteristics and features that occur over
 longer periods of time (from a few seconds to days of activity). Typical use cases are either
@@ -398,7 +398,7 @@ variability metrics) and peak characteristics.
 
 
 Heart Rate Variability (HRV)
-----------------------------
+============================
 .. image:: https://img.shields.io/badge/Tutorial-HRV-green
         :target: https://www.mdpi.com/1424-8220/21/12/3998
 
@@ -443,10 +443,10 @@ Check-out our **Heart Rate Variability in Psychology: A Review of HRV Indices an
 .. image:: https://raw.github.com/neuropsychology/NeuroKit/master/docs/readme/README_hrv.png
 
 Miscellaneous
-----------------------------
+=============
 
 ECG Delineation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------
 
 - Delineate the QRS complex of an electrocardiac signal (ECG) including P-peaks, T-peaks, as well as their onsets and offsets.
 
@@ -471,7 +471,7 @@ ECG Delineation
 
 
 Signal Processing
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------
 
 - **Signal processing functionalities**
 
@@ -505,7 +505,7 @@ Signal Processing
 
 
 Complexity (Entropy, Fractal Dimensions, ...)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------------------
 
 - **Optimize complexity parameters** (delay *tau*, dimension *m*, tolerance *r*)
 
@@ -537,7 +537,7 @@ Complexity (Entropy, Fractal Dimensions, ...)
 
 
 Signal Decomposition
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 .. code-block:: python
 
@@ -560,7 +560,7 @@ Signal Decomposition
         :target: https://neuropsychology.github.io/NeuroKit/functions/signal.html#signal-decompose
 
 Signal Power Spectrum Density (PSD)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------------
 .. code-block:: python
 
     # Generate complex signal
@@ -576,7 +576,7 @@ Signal Power Spectrum Density (PSD)
         :target: https://neuropsychology.github.io/NeuroKit/functions/signal.html#signal-psd
 
 Statistics
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------
 
 - **Highest Density Interval (HDI)**
 
@@ -592,7 +592,7 @@ Statistics
 .. used_at_section
 
 Popularity
----------------------
+==========
 
 .. image:: https://img.shields.io/pypi/dd/neurokit2
         :target: https://pypi.python.org/pypi/neurokit2
@@ -611,7 +611,7 @@ NeuroKit2 is one of the most welcoming packages for new contributors and users, 
 
 
 Used at
--------
+=======
 
 |ntu| |univ_paris| |univ_duke| |uni_auckland| |uni_pittsburh| |uni_washington|
 
@@ -630,7 +630,7 @@ Used at
 
 
 Disclaimer
-----------
+==========
 *The authors do not provide any warranty. If this software causes your keyboard to blow up, your brain to liquefy, your toilet to clog or a zombie plague to break loose, the authors CANNOT IN ANY WAY be held responsible.*
 
 Contributors & Acknowledgments

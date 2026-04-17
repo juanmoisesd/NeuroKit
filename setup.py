@@ -14,7 +14,6 @@ with open("README.rst") as readme_file:
 
 with open("NEWS.rst") as history_file:
     history = history_file.read()
-history = history.replace("\n-------------------", "\n^^^^^^^^^^^^^^^^^^^").replace("\n=====", "\n-----")
 
 
 def find_version():
