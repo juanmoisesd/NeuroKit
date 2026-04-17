@@ -39,7 +39,7 @@ def find_author():
 
 project = "NeuroKit2"
 copyright = f"2020–{datetime.datetime.now().year}"
-author = '<a href="https://dominiquemakowski.github.io/">Dominique Makowski</a> and the <a href="https://github.com/neuropsychology/NeuroKit/blob/master/AUTHORS.rst">Team</a>. This documentation is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.'
+author = '<a href="https://dominiquemakowski.github.io/">Juan Moisés de la Serna</a> and the <a href="https://github.com/neuropsychology/NeuroKit/blob/master/AUTHORS.rst">Team</a>. This documentation is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.'
 
 
 # The short X.Y version.

@@ -168,7 +168,7 @@ def hrv_frequency(
 
     References
     ----------
-    * Pham, T., Lau, Z. J., Chen, S. H. A., & Makowski, D. (2021). Heart Rate Variability in
+    * Pham, T., Lau, Z. J., Chen, S. H. A., & de la Serna, J. M. (2021). Heart Rate Variability in
       Psychology: A Review of HRV Indices and an Analysis Tutorial. Sensors, 21(12), 3998.
     * Stein, P. K. (2002). Assessing heart rate variability from real-world Holter reports. Cardiac
       electrophysiology review, 6(3), 239-244.

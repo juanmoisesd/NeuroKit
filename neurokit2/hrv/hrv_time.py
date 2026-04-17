@@ -119,7 +119,7 @@ def hrv_time(peaks, sampling_rate=1000, show=False, **kwargs):
     * Bigger Jr, J. T., Kleiger, R. E., Fleiss, J. L., Rolnitzky, L. M., Steinman, R. C., & Miller,
       J. P. (1988). Components of heart rate variability measured during healing of acute myocardial
       infarction. The American journal of cardiology, 61(4), 208-215.
-    * Pham, T., Lau, Z. J., Chen, S. H. A., & Makowski, D. (2021). Heart Rate Variability in
+    * Pham, T., Lau, Z. J., Chen, S. H. A., & de la Serna, J. M. (2021). Heart Rate Variability in
       Psychology: A Review of HRV Indices and an Analysis Tutorial. Sensors, 21(12), 3998.
       https://doi.org/10.3390/s21123998
     * Ciccone, A. B., Siedlik, J. A., Wecht, J. M., Deckert, J. A., Nguyen, N. D., & Weir, J. P.

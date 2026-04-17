@@ -9,6 +9,7 @@ The full log of contributors is available on `GitHub <https://github.com/neurops
 Current maintainers
 -------------------
 
+* `Juan Moisés de la Serna de la Serna <https://orcid.org/0000-0002-8401-8018>`_ *(Universidad Internacional de la Rioja(UNIR))*
 * `Dominique Makowski <https://github.com/DominiqueMakowski>`_ *(Nanyang Technological University, Singapore)*
 * `Danielle Benesch <https://github.com/danibene>`_ *(École de technologie supérieure, Canada)*
 * `An Shu Te <https://github.com/anshu-97>`_ *(Nanyang Technological University, Singapore)*
@@ -62,4 +63,3 @@ Thanks also to `Chuan-Peng Hu <https://github.com/hcp4715>`_, `@ucohen <https://
 .. seealso::
 
    Information about **how to cite** the software in publications can be found `here <https://neuropsychology.github.io/NeuroKit/cite_us.html>`_.
-

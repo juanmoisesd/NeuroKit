@@ -12,7 +12,7 @@
   "author": [
     {
       "@type": "Person",
-      "givenName": "Juan Moisés",
+      "givenName": "Juan Moisés de la Serna",
       "familyName": "de la Serna",
       "@id": "https://orcid.org/0000-0002-8401-8018",
       "affiliation": {
@@ -31,7 +31,7 @@
   "maintainer": [
     {
       "@type": "Person",
-      "givenName": "Juan Moisés",
+      "givenName": "Juan Moisés de la Serna",
       "familyName": "de la Serna"
     }
   ],

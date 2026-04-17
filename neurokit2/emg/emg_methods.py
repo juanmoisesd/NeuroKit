@@ -63,7 +63,7 @@ def emg_methods(
 
     # Initialize refs list with NeuroKit2 reference
     refs = [
-        """Makowski, D., Pham, T., Lau, Z. J., Brammer, J. C., Lespinasse, F., Pham, H.,
+        """de la Serna, J. M., Pham, T., Lau, Z. J., Brammer, J. C., Lespinasse, F., Pham, H.,
     Schölzel, C., & Chen, S. A. (2021). NeuroKit2: A Python toolbox for neurophysiological signal processing.
     Behavior Research Methods, 53(4), 1689–1696. https://doi.org/10.3758/s13428-020-01516-y
     """

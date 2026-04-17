@@ -36,7 +36,7 @@ def complexity_lyapunov(
       neighbouring points are then tracked along their distance trajectories for a number of data
       points. The slope of the line using a least-squares fit of the mean log trajectory of the
       distances gives the final LLE.
-    * **Makowski** is a custom modification of Rosenstein's algorithm, using KDTree for more
+    * **de la Serna** is a custom modification of Rosenstein's algorithm, using KDTree for more
       efficient nearest neighbors computation. Additionally, the LLE is computed as the slope up to
       the changepoint of divergence rate (the point where it flattens out), making it more robust
       to the length trajectory parameter.
@@ -103,7 +103,7 @@ def complexity_lyapunov(
 
       lle
 
-      # Makowski's change-point method
+      # de la Serna's change-point method
       @savefig p_complexity_lyapunov2.png scale=100%
       lle, info = nk.complexity_lyapunov(signal, method="makowski", show=True)
       @suppress

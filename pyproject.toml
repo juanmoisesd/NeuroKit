@@ -8,6 +8,7 @@ name = "neurokit2"
 version = "0.2.11"  # Needs to find a way to automatically get latest version
 description = "The Python Toolbox for Neurophysiological Signal Processing."
 authors = [
+    "Juan Moisés de la Serna de la Serna <@juanmoisesd>",
     "Dominique Makowski <@DominiqueMakowski>",
     "Tam Pham <@Tam-Pham>",
     "Zen Juen Lau <@Zen-Juen>",
