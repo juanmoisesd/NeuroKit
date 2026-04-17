@@ -1,17 +1,24 @@
 {
   "title": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
-  "description": "NeuroKit2 is a user-friendly, accessible Python toolbox for neurophysiological signal processing. It provides a comprehensive suite of tools for processing signals from various modalities, including electrocardiography (ECG), electrodermal activity (EDA), electromyography (EMG), photoplethysmography (PPG), electroencephalography (EEG), and more.",
+  "description": "NeuroKit2 is an open-source Python toolbox designed for the comprehensive processing and analysis of neurophysiological signals. It supports a wide range of modalities, including electrocardiography (ECG), electroencephalography (EEG), electrodermal activity (EDA), electromyography (EMG), and photoplethysmography (PPG). This distribution is part of a reproducibility and open-science initiative focused on providing standardized tools for physiological data analysis in research contexts, including psychophysiology and behavioral sciences.",
   "upload_type": "software",
   "access_right": "open",
-  "license": "cc-zero",
+  "license": "MIT",
   "creators": [
     {
       "name": "de la Serna Tuya, Juan Moisés",
       "affiliation": "Universidad Internacional de La Rioja (UNIR)",
       "orcid": "0000-0002-8401-8018"
+    },
+    {
+      "name": "Makowski, Dominique",
+      "affiliation": "University of Sussex"
     }
   ],
   "keywords": [
+    "Neuroeconomics",
+    "Fraud Detection",
+    "Forensic Psychology",
     "neurophysiology",
     "signal-processing",
     "ECG",
@@ -20,7 +27,9 @@
     "PPG",
     "EMG",
     "Python",
-    "open-science"
+    "open-science",
+    "reproducibility",
+    "physiological-computing"
   ],
   "language": "eng",
   "version": "0.2.12",
@@ -28,6 +37,9 @@
   "communities": [
     {
       "identifier": "zenodo"
+    },
+    {
+      "identifier": "juanmoisesd-open-data"
     }
   ],
   "related_identifiers": [

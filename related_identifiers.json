@@ -31,6 +31,6 @@
       "resource_type": "webpage"
     }
   ],
-  "author": "Juan Moisés de la Serna Tuya",
-  "dataset": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing"
+  "curator": "Juan Moisés de la Serna Tuya",
+  "toolbox": "NeuroKit2"
 }

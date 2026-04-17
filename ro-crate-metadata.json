@@ -12,20 +12,13 @@
       }
     },
     {
-      "@type": [
-        "Dataset",
-        "SoftwareSourceCode"
-      ],
+      "@type": ["Dataset", "SoftwareSourceCode"],
       "@id": "./",
       "name": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
-      "description": "NeuroKit2 is a user-friendly, accessible Python toolbox for neurophysiological signal processing. It provides a comprehensive suite of tools for processing signals from various modalities, including electrocardiography (ECG), electrodermal activity (EDA), electromyography (EMG), photoplethysmography (PPG), electroencephalography (EEG), and more.",
+      "description": "NeuroKit2 is an open-source Python toolbox designed for the comprehensive processing and analysis of neurophysiological signals (ECG, EEG, EDA, EMG, PPG). This distribution is part of a reproducibility initiative.",
       "datePublished": "2025-02-12",
-      "license": {
-        "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
-      },
-      "author": {
-        "@id": "https://orcid.org/0000-0002-8401-8018"
-      },
+      "license": {"@id": "https://spdx.org/licenses/MIT"},
+      "author": {"@id": "https://orcid.org/0000-0002-8401-8018"},
       "url": "https://github.com/juanmoisesd/NeuroKit",
       "keywords": "neurophysiology, signal-processing, ECG, EEG, EDA, PPG, EMG, Python, open-science",
       "version": "0.2.12"
@@ -34,15 +27,8 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-8401-8018",
       "name": "Juan Moisés de la Serna Tuya",
-      "affiliation": {
-        "@id": "https://ror.org/0063t5s24"
-      },
+      "affiliation": {"@id": "https://ror.org/0063t5s24"},
       "email": "juanmoises.delaserna@unir.net"
-    },
-    {
-      "@type": "CreativeWork",
-      "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "name": "CC0 1.0 Universal"
     }
   ]
 }
