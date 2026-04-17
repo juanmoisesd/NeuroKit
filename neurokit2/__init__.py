@@ -58,8 +58,7 @@ __bibtex__ = r"""
 }
 """
 
-__cite__ = (
-    """
+__cite__ = """
 You can cite NeuroKit2 as follows:
 
 - de la Serna, J. M. (2026). NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing. Universidad Internacional de la Rioja(UNIR). ORCID: 0000-0002-8401-8018
@@ -67,9 +66,7 @@ Behavior Research Methods, 53(4), 1689-1696. https://doi.org/10.3758/s13428-020-
 
 
 Full bibtex reference:
-"""
-    + __bibtex__
-)
+""" + __bibtex__
 # Aliases for citation
 __citation__ = __cite__
 
