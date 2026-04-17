@@ -59,6 +59,9 @@ def rsp_phase(peaks, troughs=None, desired_length=None):
     peaks, troughs = _rsp_fixpeaks_retrieve(peaks, troughs)
 
     # Phase
+    if desired_length is None:
+        desired_length = np.nanmax(np.concatenate([peaks, troughs])) + 1
+
     inspiration = np.full(desired_length, np.nan)
     inspiration[peaks] = 0.0
     inspiration[troughs] = 1.0
