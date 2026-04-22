@@ -6,17 +6,16 @@ import antropy
 # when using importlib.resources.files('nolds.datasets') in Python 3.11+
 try:
     import importlib.resources as resources
-    try:
-        resources.files('nolds.datasets')
-    except (TypeError, ImportError, AttributeError):
-        import nolds
-        original_files = resources.files
-        def patched_files(package):
-            if package == 'nolds.datasets':
-                return original_files('nolds')
-            return original_files(package)
-        resources.files = patched_files
-except (ImportError, AttributeError):
+
+    original_files = resources.files
+
+    def patched_files(package):
+        if package == "nolds.datasets":
+            return original_files("nolds").joinpath("datasets")
+        return original_files(package)
+
+    resources.files = patched_files
+except Exception:
     pass
 
 import nolds
