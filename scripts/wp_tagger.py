@@ -5,8 +5,9 @@ from playwright.sync_api import sync_playwright
 
 # Configuration
 WP_LOGIN_URL = "https://juanmoisesdelaserna.es/wp-login.php"
-WP_USER = os.environ.get("WP_USER", "DoctorenPsicologia")
-WP_PASS = os.environ.get("WP_PASS", "dp&LVjv3Y%Vbn!C5pu)w)4")
+# Credentials should be set via environment variables for security
+WP_USER = os.environ.get("WP_USER")
+WP_PASS = os.environ.get("WP_PASS")
 
 STOP_WORDS = {
     "de", "la", "que", "el", "en", "y", "a", "los", "del", "se", "las", "por", "un", "para", "con", "no", "una", "su", "al", "lo", "como", "más", "pero", "sus", "le", "ya", "o", "este", "sí", "porque", "esta", "entre", "cuando", "muy", "sin", "sobre", "también", "me", "hasta", "hay", "donde", "quien", "desde", "todo", "nos", "durante", "todos", "uno", "les", "ni", "contra", "otros", "ese", "eso", "ante", "ellos", "e", "esto", "mí", "antes", "algunos", "qué", "unos", "yo", "otro", "otras", "otra", "él", "tanto", "esa", "estos", "mucho", "quienes", "nada", "muchos", "cual", "poco", "ella", "estar", "estas", "algunas", "algo", "nosotros", "mi", "mis", "tú", "te", "ti"
@@ -33,6 +34,10 @@ def generate_tags(title):
     return ", ".join(tags[:15])
 
 def run_tagger(limit=50):
+    if not WP_USER or not WP_PASS:
+        print("Error: WP_USER and WP_PASS environment variables must be set.")
+        return
+
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         context = browser.new_context()
@@ -125,4 +130,4 @@ def run_tagger(limit=50):
         browser.close()
 
 if __name__ == "__main__":
-    run_tagger(limit=50) # Small batch for demonstration
+    run_tagger(limit=50) # Process in batches

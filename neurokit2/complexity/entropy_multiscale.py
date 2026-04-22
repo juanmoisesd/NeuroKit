@@ -2,7 +2,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import scipy.integrate
 
 from ..misc import copyfunction
 from .complexity_lempelziv import complexity_lempelziv
@@ -347,7 +346,7 @@ def entropy_multiscale(
 
     # The MSE index is quantified as the area under the curve (AUC),
     # which is like the sum normalized by the number of values. It's similar to the mean.
-    mse = scipy.integrate.trapezoid(mse) / len(mse)
+    mse = np.trapz(mse) / len(mse)
 
     # Plot overlay
     if show is True:

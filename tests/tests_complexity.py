@@ -1,10 +1,7 @@
 from collections.abc import Iterable
 
 import antropy
-try:
-    import nolds
-except (ImportError, TypeError):
-    nolds = None
+import nolds
 import numpy as np
 import pandas as pd
 import sklearn.neighbors
@@ -46,12 +43,11 @@ def test_complexity_sanity():
     assert np.allclose(
         nk.fractal_correlation(signal)[0], 0.7382138350901658, atol=0.000001
     )
-    if nolds is not None:
-        assert np.allclose(
-            nk.fractal_correlation(signal, radius="nolds")[0],
-            nolds.corr_dim(signal, 2),
-            atol=0.01,
-        )
+    assert np.allclose(
+        nk.fractal_correlation(signal, radius="nolds")[0],
+        nolds.corr_dim(signal, 2),
+        atol=0.01,
+    )
 
 
 # =============================================================================
@@ -151,11 +147,10 @@ def test_complexity_vs_Python():
         nk.entropy_sample(signal, dimension=2, tolerance=tolerance)[0],
         entropy_sample_entropy(signal, 2),
     )
-    if nolds is not None:
-        assert np.allclose(
-            nk.entropy_sample(signal, dimension=2, tolerance=0.2)[0],
-            nolds.sampen(signal, 2, 0.2),
-        )
+    assert np.allclose(
+        nk.entropy_sample(signal, dimension=2, tolerance=0.2)[0],
+        nolds.sampen(signal, 2, 0.2),
+    )
     assert np.allclose(
         nk.entropy_sample(signal, dimension=2, tolerance=0.2)[0],
         entro_py_sampen(signal, 2, 0.2, scale=False),
