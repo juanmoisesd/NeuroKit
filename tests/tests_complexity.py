@@ -1,8 +1,30 @@
 from collections.abc import Iterable
 
 import antropy
+
+# Fix for nolds.datasets.load_brown72() failing with TypeError: 'nolds.datasets' is not a package
+# when using importlib.resources.files('nolds.datasets') in Python 3.11+
+try:
+    import importlib.resources as resources
+    try:
+        resources.files('nolds.datasets')
+    except (TypeError, ImportError, AttributeError):
+        import nolds
+        original_files = resources.files
+        def patched_files(package):
+            if package == 'nolds.datasets':
+                return original_files('nolds')
+            return original_files(package)
+        resources.files = patched_files
+except (ImportError, AttributeError):
+    pass
+
 import nolds
 import numpy as np
+
+# Compatibility for numpy < 1.25.0
+if not hasattr(np, "trapezoid"):
+    np.trapezoid = np.trapz
 import pandas as pd
 import sklearn.neighbors
 from packaging import version
@@ -180,9 +202,9 @@ def test_complexity_vs_Python():
 
     # MSE
     #    assert nk.entropy_multiscale(signal, 2, 0.2*np.sqrt(np.var(signal)))
-    #           != np.trapz(MultiscaleEntropy_mse(signal, [i+1 for i in range(10)], 2, 0.2, return_type="list"))
+    #           != np.trapezoid(MultiscaleEntropy_mse(signal, [i+1 for i in range(10)], 2, 0.2, return_type="list"))
     #    assert nk.entropy_multiscale(signal, 2, 0.2*np.std(signal, ddof=1))
-    #           != np.trapz(pyentrp.multiscale_entropy(signal, 2, 0.2, 10))
+    #           != np.trapezoid(pyentrp.multiscale_entropy(signal, 2, 0.2, 10))
 
     # Fuzzy
     assert np.allclose(
@@ -241,6 +263,10 @@ def wikipedia_sampen(signal, m=2, r=1):
 # =============================================================================
 
 # import numpy as np
+
+# Compatibility for numpy < 1.25.0
+if not hasattr(np, "trapezoid"):
+    np.trapezoid = np.trapz
 # from entropy_estimators import continuous
 #
 # x = np.random.randn(10000)

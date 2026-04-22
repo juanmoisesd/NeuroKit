@@ -2,6 +2,10 @@ import matplotlib.cm
 import matplotlib.gridspec
 import matplotlib.pyplot as plt
 import numpy as np
+
+# Compatibility for numpy < 1.25.0
+if not hasattr(np, "trapezoid"):
+    np.trapezoid = np.trapz
 import pandas as pd
 
 from .entropy_sample import entropy_sample
@@ -114,7 +118,7 @@ def entropy_hierarchical(
 
     # The HEn index is quantified as the area under the curve (AUC),
     # which is like the sum normalized by the number of values. It's similar to the mean.
-    hen = np.trapz(Sn[np.isfinite(Sn)]) / len(Sn[np.isfinite(Sn)])
+    hen = np.trapezoid(Sn[np.isfinite(Sn)]) / len(Sn[np.isfinite(Sn)])
 
     if show is True:
 
