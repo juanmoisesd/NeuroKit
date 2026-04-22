@@ -1,160 +1,128 @@
-
 import os
-import asyncio
-import argparse
+import time
 import re
-from playwright.async_api import async_playwright
+from playwright.sync_api import sync_playwright
 
-def clean_word(word):
-    """Removes punctuation from a word."""
-    return re.sub(r'[^\w\s]', '', word).strip()
+# Configuration
+WP_LOGIN_URL = "https://juanmoisesdelaserna.es/wp-login.php"
+WP_USER = os.environ.get("WP_USER", "DoctorenPsicologia")
+WP_PASS = os.environ.get("WP_PASS", "dp&LVjv3Y%Vbn!C5pu)w)4")
 
-def generate_tags(title, existing_tags_str=""):
-    """
-    Generates relevant tags and appends them to existing ones.
-    """
-    # Simple stop words to exclude
-    stop_words = {"sobre", "donde", "desde", "estas", "entre", "hacia", "hasta", "tanto", "quien"}
+STOP_WORDS = {
+    "de", "la", "que", "el", "en", "y", "a", "los", "del", "se", "las", "por", "un", "para", "con", "no", "una", "su", "al", "lo", "como", "más", "pero", "sus", "le", "ya", "o", "este", "sí", "porque", "esta", "entre", "cuando", "muy", "sin", "sobre", "también", "me", "hasta", "hay", "donde", "quien", "desde", "todo", "nos", "durante", "todos", "uno", "les", "ni", "contra", "otros", "ese", "eso", "ante", "ellos", "e", "esto", "mí", "antes", "algunos", "qué", "unos", "yo", "otro", "otras", "otra", "él", "tanto", "esa", "estos", "mucho", "quienes", "nada", "muchos", "cual", "poco", "ella", "estar", "estas", "algunas", "algo", "nosotros", "mi", "mis", "tú", "te", "ti"
+}
 
-    words = title.lower().split()
-    new_tags = []
-    for w in words:
-        cleaned = clean_word(w)
-        if len(cleaned) > 4 and cleaned not in stop_words:
-            new_tags.append(cleaned)
+def generate_tags(title):
+    # Clean title: remove non-alphanumeric characters except spaces
+    clean_title = re.sub(r'[^\w\s]', '', title.lower())
+    words = clean_title.split()
+    # Filter out stop words and short words
+    keywords = [w for w in words if w not in STOP_WORDS and len(w) > 3]
+    # Add some variants or common themes if known (e.g., psychology)
+    tags = list(set(keywords))
 
-    # Domain specific fillers
-    fillers = [
-        "psicología", "neurociencia", "salud mental", "bienestar",
-        "investigación", "divulgación", "ciencia", "comportamiento",
-        "cerebro", "mente", "emociones", "terapia"
-    ]
-
-    for f in fillers:
-        if len(new_tags) >= 15: # Aim for more to ensure at least 10
-            break
-        if f not in new_tags:
-            new_tags.append(f)
-
-    # Merge with existing tags
-    existing_tags = [t.strip() for t in existing_tags_str.split(",") if t.strip()]
-    combined_tags = list(existing_tags)
-    for nt in new_tags:
-        if nt.lower() not in [et.lower() for et in combined_tags]:
-            combined_tags.append(nt)
-
-    # Ensure at least 10 tags total
-    if len(combined_tags) < 10:
-        for f in fillers:
-            if f.lower() not in [et.lower() for et in combined_tags]:
-                combined_tags.append(f)
-            if len(combined_tags) >= 10:
+    # If we don't have 10 tags, we can split some compound words or add generic ones
+    if len(tags) < 10:
+        generic_tags = ["psicología", "salud mental", "bienestar", "terapia", "análisis", "investigación", "comportamiento", "mente", "cerebro", "emociones"]
+        for gt in generic_tags:
+            if gt not in tags:
+                tags.append(gt)
+            if len(tags) >= 12:
                 break
 
-    return ", ".join(combined_tags)
+    return ", ".join(tags[:15])
 
-async def run_tagger(max_posts=20, start_page=1):
-    user = os.environ.get("WP_USER")
-    password = os.environ.get("WP_PASS")
+def run_tagger(limit=50):
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        context = browser.new_context()
+        page = context.new_page()
 
-    if not user or not password:
-        print("Error: WP_USER and WP_PASS environment variables must be set.")
-        return
+        print(f"Logging in to {WP_LOGIN_URL}...")
+        page.goto(WP_LOGIN_URL)
+        page.fill("#user_login", WP_USER)
+        page.fill("#user_pass", WP_PASS)
+        page.click("#wp-submit")
+        page.wait_for_load_state("networkidle")
 
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
-        context = await browser.new_context()
-        page = await context.new_page()
+        if "wp-admin" not in page.url:
+            print("Login failed. Check credentials.")
+            return
 
-        print("Logging in to WordPress...")
-        await page.goto("https://juanmoisesdelaserna.es/wp-login.php")
-        await page.fill("#user_login", user)
-        await page.fill("#user_pass", password)
-        await page.click("#wp-submit")
-        await page.wait_for_load_state("networkidle")
+        print("Login successful. Going to Posts...")
+        page.goto("https://juanmoisesdelaserna.es/wp-admin/edit.php")
 
-        total_tagged = 0
-        current_page = start_page
+        count = 0
+        while count < limit:
+            # Find all rows that don't have many tags or haven't been processed
+            # We'll just iterate through the current page
+            rows = page.query_selector_all("tr.type-post")
 
-        while total_tagged < max_posts:
-            print(f"Processing admin page {current_page}...")
-            await page.goto(f"https://juanmoisesdelaserna.es/wp-admin/edit.php?paged={current_page}")
-            await page.wait_for_load_state("networkidle")
-
-            posts = await page.evaluate("""
-                () => {
-                    const results = [];
-                    document.querySelectorAll('tr[id^="post-"]').forEach(tr => {
-                        const id = tr.id.replace('post-', '');
-                        const titleEl = tr.querySelector('.row-title');
-                        const tagsEl = tr.querySelector('.column-tags');
-                        if (titleEl) {
-                            results.push({
-                                id,
-                                title: titleEl.innerText,
-                                current_tags: tagsEl ? tagsEl.innerText : ""
-                            });
-                        }
-                    });
-                    return results;
-                }
-            """)
-
-            if not posts:
-                print("No more posts found.")
-                break
-
-            for post in posts:
-                if total_tagged >= max_posts:
+            for row in rows:
+                if count >= limit:
                     break
 
-                post_id = post['id']
-                title = post['title']
-                current_tags = post['current_tags']
-
-                # Check if it already has 10+ tags
-                existing_count = len([t for t in current_tags.split(",") if t.strip()])
-                if existing_count >= 10:
-                    print(f"Skipping post {post_id} (already has {existing_count} tags)")
+                post_id = row.get_attribute("id")
+                title_el = row.query_selector(".row-title")
+                if not title_el:
                     continue
 
-                new_tags_str = generate_tags(title, current_tags)
+                title = title_el.inner_text()
+                tags_el = row.query_selector(".column-tags")
+                existing_tags = tags_el.inner_text().strip()
 
-                print(f"[{total_tagged+1}/{max_posts}] Tagging post {post_id}: {title}")
+                # If tags are few (e.g. "—" or less than 5 tags), we process it
+                if existing_tags == "—" or existing_tags.count(",") < 8:
+                    print(f"[{count+1}] Tagging: {title}")
 
-                try:
-                    # Hover to make row actions visible
-                    await page.hover(f"#post-{post_id}")
-                    # Quick Edit
-                    await page.click(f"#post-{post_id} .editinline")
+                    # Hover to reveal Quick Edit
+                    row.hover()
+                    quick_edit = row.query_selector(".editinline")
+                    if quick_edit:
+                        quick_edit.click()
 
-                    # Wait for tags textarea
-                    textarea_selector = f"#edit-{post_id} textarea[name='tax_input[post_tag]']"
-                    await page.wait_for_selector(textarea_selector, timeout=5000)
+                        # Wait for inline edit row to appear
+                        inline_edit_id = post_id.replace("post-", "edit-")
+                        inline_row = page.wait_for_selector(f"#{inline_edit_id}")
 
-                    # Fill and Save
-                    await page.fill(textarea_selector, new_tags_str)
-                    await page.click(f"#edit-{post_id} .save")
+                        tags_input = inline_row.query_selector("textarea.tax_input_post_tag")
+                        if tags_input:
+                            new_tags = generate_tags(title)
+                            current_val = tags_input.input_value()
+                            if current_val and current_val != "—":
+                                combined_tags = current_val + ", " + new_tags
+                            else:
+                                combined_tags = new_tags
 
-                    # Wait for the row to stop being 'updating'
-                    await asyncio.sleep(2)
-                    total_tagged += 1
-                except Exception as e:
-                    print(f"Error tagging post {post_id}: {e}")
-                    try:
-                        await page.click(f"#edit-{post_id} .cancel")
-                    except:
-                        pass
+                            tags_input.fill(combined_tags)
 
-            current_page += 1
+                            # Click Update
+                            save_button = inline_row.query_selector(".save")
+                            save_button.click()
 
-        print(f"Batch completed. Total posts tagged: {total_tagged}")
-        await browser.close()
+                            # Wait for it to disappear
+                            page.wait_for_selector(f"#{inline_edit_id}", state="hidden")
+                            time.sleep(1) # Small delay to be safe
+                            count += 1
+                        else:
+                            # Cancel
+                            cancel_button = inline_row.query_selector(".cancel")
+                            cancel_button.click()
+                else:
+                    # print(f"Skipping (already tagged): {title}")
+                    pass
+
+            # Go to next page if limit not reached
+            next_page = page.query_selector("a.next-page")
+            if next_page and count < limit:
+                print("Going to next page...")
+                next_page.click()
+                page.wait_for_load_state("networkidle")
+            else:
+                break
+
+        print(f"Finished. Tagged {count} posts.")
+        browser.close()
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="WordPress Auto-Tagger")
-    parser.add_argument("--max", type=int, default=20, help="Maximum posts to tag")
-    parser.add_argument("--page", type=int, default=1, help="Start page in admin list")
-    args = parser.parse_args()
-
-    asyncio.run(run_tagger(max_posts=args.max, start_page=args.page))
+    run_tagger(limit=50) # Small batch for demonstration
