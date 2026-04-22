@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 import matplotlib.gridspec
 import numpy as np
+
+# Compatibility for numpy < 1.25.0
+if not hasattr(np, "trapezoid"):
+    np.trapezoid = np.trapz
 import pandas as pd
 from matplotlib import pyplot as plt
 
@@ -216,6 +220,6 @@ def _microstates_lifetime(microstates, out=None):
     if out is None:
         out = {}
     for s in states:
-        out[str(s) + "_LifetimeDistribution"] = np.trapz(lifetimes[s])
+        out[str(s) + "_LifetimeDistribution"] = np.trapezoid(lifetimes[s])
 
     return out, lifetimes
