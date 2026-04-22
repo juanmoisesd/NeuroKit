@@ -11,7 +11,10 @@ try:
 
     def patched_files(package):
         if package == "nolds.datasets":
-            return original_files("nolds").joinpath("datasets")
+            # nolds uses resources.files(__name__).joinpath("datasets/...")
+            # where __name__ is "nolds.datasets". We want this to point to the
+            # base "nolds" directory so that joinpath("datasets/...") works.
+            return original_files("nolds")
         return original_files(package)
 
     resources.files = patched_files
