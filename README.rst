@@ -637,5 +637,4 @@ Contributors & Acknowledgments
 ------------------------------
 
 NeuroKit2 is developed and maintained by the neuropsychology research community. The full list of contributors is available on GitHub <https://github.com/neuropsychology/NeuroKit/graphs/contributors>_.
-h
 **Contributing**: If you want to contribute to NeuroKit2, please visit the GitHub repository
