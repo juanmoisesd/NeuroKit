@@ -151,7 +151,7 @@ def _eog_features_delineate(eog_cleaned, candidates, sampling_rate=1000):
         if len(max_frame) > 1:
             max_frame = max_frame[0]  # If two points achieve max value, first one is blink
         else:
-            max_frame = int(max_frame)
+            max_frame = max_frame.item()
 
         # left and right zero markers
         crossings = signal_zerocrossings(epochs[i].Signal)
