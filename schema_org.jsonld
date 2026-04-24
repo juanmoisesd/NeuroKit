@@ -1,8 +1,8 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "name": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
-  "description": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
+  "name": "Aprende sobre Alzheimer - Portal de Investigación",
+  "description": "Portal referente sobre la enfermedad de Alzheimer: investigación, noticias y recursos educativos por el Dr. Juan Moisés de la Serna.",
   "url": "https://github.com/juanmoisesd/NeuroKit",
   "sameAs": "https://juanmoisesd.github.io/NeuroKit/",
   "identifier": "https://github.com/juanmoisesd/NeuroKit",
@@ -22,9 +22,9 @@
     "url": "https://www.unir.net"
   },
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "datePublished": "2026-03-20",
-  "dateModified": "2026-03-20",
-  "keywords": "open-data, dataset, research",
+  "datePublished": "2025-03-21",
+  "dateModified": "2025-03-21",
+  "keywords": "Alzheimer, demencia, neurociencia, investigación, salud mental",
   "inLanguage": [
     "es",
     "en"
@@ -33,8 +33,8 @@
   "distribution": [
     {
       "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "contentUrl": "https://github.com/juanmoisesd/NeuroKit"
+      "encodingFormat": "text/html",
+      "contentUrl": "https://juanmoisesd.github.io/NeuroKit/"
     }
   ]
 }

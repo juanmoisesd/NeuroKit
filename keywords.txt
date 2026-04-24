@@ -1,4 +1,12 @@
-open-data, dataset, research
+Alzheimer
+demencia
+neurodegeneración
+investigación
+salud mental
+neurociencia
+cognición
+Juan Moisés de la Serna
+UNIR
 open-data
 dataset
 research

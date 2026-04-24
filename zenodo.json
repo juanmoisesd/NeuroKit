@@ -1,6 +1,6 @@
 {
-  "title": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
-  "description": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
+  "title": "Aprende sobre Alzheimer: Portal de Investigación y Recursos",
+  "description": "Repositorio del portal referente sobre Alzheimer, incluyendo investigación sobre su evolución en Latinoamérica y recursos educativos.",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "cc-zero",
@@ -12,13 +12,15 @@
     }
   ],
   "keywords": [
-    "open-data",
-    "dataset",
-    "research"
+    "Alzheimer",
+    "demencia",
+    "neurociencia",
+    "investigación",
+    "salud mental"
   ],
-  "language": "eng",
-  "version": "1.0.0",
-  "publication_date": "2026-03-20",
+  "language": "spa",
+  "version": "2.0.0",
+  "publication_date": "2025-03-21",
   "communities": [
     {
       "identifier": "zenodo"
@@ -33,5 +35,5 @@
   ],
   "contributors": [],
   "grants": [],
-  "notes": "Compiled from publicly available secondary sources. Author ORCID: https://orcid.org/0000-0002-8401-8018"
+  "notes": "Portal de divulgación científica sobre Alzheimer. Autor ORCID: https://orcid.org/0000-0002-8401-8018"
 }

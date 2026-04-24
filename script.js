@@ -1,21 +1,47 @@
-// Scientific Repository Script
-// Metadata and citation helper
+// Aprende sobre Alzheimer - Portal Script
 document.addEventListener('DOMContentLoaded', function() {
-  // Add copy-to-clipboard for citation
-  const codeEl = document.querySelector('code');
-  if (codeEl) {
-    codeEl.style.cursor = 'pointer';
-    codeEl.title = 'Click to copy citation';
-    codeEl.addEventListener('click', function() {
-      navigator.clipboard.writeText(codeEl.textContent).then(() => {
-        const orig = codeEl.textContent;
-        codeEl.textContent = '✅ Copied to clipboard!';
-        setTimeout(() => { codeEl.textContent = orig; }, 2000);
-      });
-    });
-  }
-  
-  // Track page view (privacy-friendly, no external calls)
-  console.log('Dataset page loaded: NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing');
-  console.log('Author: Juan Moisés de la Serna Tuya | ORCID: https://orcid.org/0000-0002-8401-8018');
+    // RSS Feed Fetcher
+    const rssContainer = document.getElementById('rss-container');
+    // Using a public RSS to JSON converter to bypass CORS
+    const RSS_URL = 'https://medicine.yale.edu/adrc/news-events/?rss=1';
+    const API_URL = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(RSS_URL)}`;
+
+    async function fetchRSS() {
+        try {
+            const response = await fetch(API_URL);
+            const data = await response.json();
+
+            if (data.status === 'ok') {
+                rssContainer.innerHTML = ''; // Clear loading message
+
+                data.items.slice(0, 5).forEach(item => {
+                    const article = document.createElement('div');
+                    article.className = 'rss-item';
+
+                    const pubDate = new Date(item.pubDate).toLocaleDateString('es-ES', {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric'
+                    });
+
+                    article.innerHTML = `
+                        <h4><a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.title}</a></h4>
+                        <p class="date">${pubDate}</p>
+                        <p>${item.description.substring(0, 150)}...</p>
+                    `;
+                    rssContainer.appendChild(article);
+                });
+            } else {
+                rssContainer.innerHTML = '<p>No se pudieron cargar las noticias en este momento. Por favor, inténtelo más tarde.</p>';
+            }
+        } catch (error) {
+            console.error('Error fetching RSS:', error);
+            rssContainer.innerHTML = '<p>Error al conectar con el servidor de noticias.</p>';
+        }
+    }
+
+    fetchRSS();
+
+    // Track interactions (privacy-friendly)
+    console.log('Portal "Aprende sobre Alzheimer" cargado correctamente.');
 });
