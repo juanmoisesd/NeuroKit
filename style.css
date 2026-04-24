@@ -1,28 +1,184 @@
-/* Scientific Repository Stylesheet */
+/* Aprende sobre Alzheimer - Stylesheet */
 :root {
-  --primary: #0366d6;
-  --secondary: #586069;
-  --bg: #ffffff;
-  --bg-alt: #f6f8fa;
-  --border: #e1e4e8;
-  --text: #24292e;
-  --accent: #28a745;
+  --primary: #1a365d; /* Deep Blue */
+  --secondary: #4a5568;
+  --accent: #6b46c1;  /* Purple */
+  --bg: #f7fafc;
+  --card-bg: #ffffff;
+  --border: #e2e8f0;
+  --text: #2d3748;
+  --link: #3182ce;
+  --success: #38a169;
 }
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: var(--text); background: var(--bg); line-height: 1.6; }
-header { background: var(--primary); color: white; padding: 2rem; text-align: center; }
-header h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
-header .subtitle { opacity: 0.85; }
-header a { color: #cce5ff; }
-main { max-width: 900px; margin: 2rem auto; padding: 0 1.5rem; }
-section { margin-bottom: 2rem; padding: 1.5rem; background: var(--bg-alt); border: 1px solid var(--border); border-radius: 8px; }
-h2 { color: var(--primary); margin-bottom: 1rem; font-size: 1.3rem; }
-ul { list-style: none; padding: 0; }
-li { padding: 0.4rem 0; border-bottom: 1px solid var(--border); }
-li:last-child { border-bottom: none; }
-code { display: block; background: #fff; border: 1px solid var(--border); padding: 1rem; border-radius: 4px; font-family: monospace; font-size: 0.9rem; word-break: break-all; }
-.btn { display: inline-block; background: var(--accent); color: white; padding: 0.7rem 1.5rem; border-radius: 6px; text-decoration: none; font-weight: 600; margin-top: 0.5rem; }
-.btn:hover { opacity: 0.85; }
-footer { text-align: center; padding: 1.5rem; color: var(--secondary); border-top: 1px solid var(--border); margin-top: 2rem; }
-footer a { color: var(--primary); }
-@media(max-width:600px){ header h1{font-size:1.3rem} main{padding:0 1rem} }
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, var(--primary) 0%, #2c5282 100%);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 800;
+}
+
+header .subtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  max-width: 700px;
+  margin: 0 auto 1.5rem;
+}
+
+.badges {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.badges img {
+  height: 24px;
+  transition: transform 0.2s;
+}
+
+.badges img:hover {
+  transform: translateY(-2px);
+}
+
+main {
+  max-width: 1000px;
+  margin: -3rem auto 2rem;
+  padding: 0 1.5rem;
+}
+
+section {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  border-bottom: 2px solid var(--bg);
+  padding-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.research-item {
+  padding: 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  transition: box-shadow 0.2s;
+}
+
+.research-item:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.research-item h3 {
+  color: var(--primary);
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--link);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background: #2b6cb0;
+}
+
+.author-card {
+  background: var(--primary);
+  color: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+.author-card h2 { color: white; border-bottom-color: rgba(255,255,255,0.2); }
+
+.author-info table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1.5rem;
+  color: white;
+}
+
+.author-info th, .author-info td {
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.author-info th { background: rgba(255,255,255,0.1); }
+.author-info a { color: #ebf8ff; }
+
+#rss-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.rss-item {
+  padding: 1rem;
+  border-left: 4px solid var(--accent);
+  background: #fdf2f8;
+  border-radius: 0 8px 8px 0;
+}
+
+.rss-item h4 { margin-bottom: 0.5rem; }
+.rss-item a { color: var(--accent); text-decoration: none; font-weight: bold; }
+.rss-item .date { font-size: 0.8rem; color: var(--secondary); }
+
+footer {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  color: var(--secondary);
+  border-top: 1px solid var(--border);
+  margin-top: 2rem;
+}
+
+footer a { color: var(--primary); text-decoration: none; font-weight: 500; }
+
+@media(max-width:600px){
+  header h1 { font-size: 1.8rem; }
+  main { margin-top: -1.5rem; }
+  section { padding: 1.25rem; }
+}

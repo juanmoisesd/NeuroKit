@@ -16,9 +16,9 @@
         "Dataset"
       ],
       "@id": "./",
-      "name": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
-      "description": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
-      "datePublished": "2026-03-20",
+      "name": "Aprende sobre Alzheimer - Portal de Investigación",
+      "description": "Portal referente sobre la enfermedad de Alzheimer: investigación, noticias y recursos educativos.",
+      "datePublished": "2025-03-21",
       "license": {
         "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
       },
@@ -26,7 +26,7 @@
         "@id": "https://orcid.org/0000-0002-8401-8018"
       },
       "url": "https://github.com/juanmoisesd/NeuroKit",
-      "keywords": "open-data, dataset, research"
+      "keywords": "Alzheimer, demencia, neurociencia, investigación"
     },
     {
       "@type": "Person",
