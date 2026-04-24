@@ -1,11 +1,16 @@
-open-data, dataset, research
-open-data
-dataset
-research
-science
-FAIR
-reproducibility
+neurokit
+neurokit2
+neurophysiology
+signal-processing
+ECG
+EEG
+EDA
+PPG
+EMG
+Python
 open-science
-academic
-citation
-DOI
+reproducibility
+Neuroeconomics
+Fraud Detection
+Forensic Psychology
+FAIR

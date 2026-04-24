@@ -8,9 +8,10 @@
   "works": [
     {
       "title": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
-      "type": "dataset",
+      "type": "software",
+      "doi": "10.5281/zenodo.19613274",
       "url": "https://github.com/juanmoisesd/NeuroKit",
-      "year": "2026"
+      "year": "2025"
     }
   ]
 }

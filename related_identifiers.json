@@ -2,9 +2,27 @@
   "related_identifiers": [
     {
       "identifier": "https://github.com/juanmoisesd/NeuroKit",
-      "relation": "isDocumentedBy",
+      "relation": "isSupplementTo",
       "scheme": "url",
-      "resource_type": "dataset"
+      "resource_type": "software"
+    },
+    {
+      "identifier": "10.3758/s13428-020-01516-y",
+      "relation": "isDescribedBy",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.5281/zenodo.19145316",
+      "relation": "isPartOf",
+      "scheme": "doi",
+      "resource_type": "collection"
+    },
+    {
+      "identifier": "10.5281/zenodo.19613071",
+      "relation": "hasSupplement",
+      "scheme": "doi",
+      "resource_type": "software"
     },
     {
       "identifier": "https://orcid.org/0000-0002-8401-8018",
@@ -17,14 +35,8 @@
       "relation": "isDescribedBy",
       "scheme": "url",
       "resource_type": "webpage"
-    },
-    {
-      "identifier": "https://github.com/juanmoisesd",
-      "relation": "isPartOf",
-      "scheme": "url",
-      "resource_type": "collection"
     }
   ],
   "author": "Juan Moisés de la Serna Tuya",
-  "dataset": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing"
+  "toolbox": "NeuroKit2"
 }

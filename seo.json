@@ -1,15 +1,28 @@
 {
   "@context": "https://schema.org",
-  "@type": "Dataset",
-  "name": "NeuroKit",
-  "description": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
+  "@type": "SoftwareSourceCode",
+  "name": "NeuroKit2: The Python Toolbox for Neurophysiological Signal Processing",
+  "description": "NeuroKit2 is an open-source Python toolbox designed for the comprehensive processing and analysis of neurophysiological signals (ECG, EEG, EDA, EMG, PPG). This distribution is part of a reproducibility initiative.",
   "url": "https://github.com/juanmoisesd/NeuroKit",
   "sameAs": [
     "https://github.com/juanmoisesd/NeuroKit",
-    "https://juanmoisesd.github.io/NeuroKit/"
+    "https://juanmoisesd.github.io/NeuroKit/",
+    "https://doi.org/10.5281/zenodo.19613274"
   ],
-  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "keywords": [],
+  "license": "https://opensource.org/licenses/MIT",
+  "keywords": [
+    "neurophysiology",
+    "signal-processing",
+    "ECG",
+    "EEG",
+    "EDA",
+    "PPG",
+    "EMG",
+    "Python",
+    "open-science",
+    "Neuroeconomics",
+    "Fraud Detection"
+  ],
   "isAccessibleForFree": true,
   "creator": {
     "@type": "Person",
@@ -25,17 +38,19 @@
     ],
     "affiliation": {
       "@type": "Organization",
-      "name": "Universidad Internacional de La Rioja (UNIR)"
+      "name": "Universidad Internacional de La Rioja (UNIR)",
+      "@id": "https://ror.org/0063t5s24"
     }
   },
   "publisher": {
     "@type": "Organization",
-    "name": "GitHub"
+    "name": "Zenodo",
+    "url": "https://zenodo.org"
   },
-  "datePublished": "2025",
+  "datePublished": "2025-02-12",
   "inLanguage": [
     "es",
     "en"
   ],
-  "version": "1.0.0"
+  "version": "0.2.12"
 }
