@@ -4,7 +4,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import scipy.interpolate
-import scipy.misc
 
 from .utils_complexity_embedding import complexity_embedding
 

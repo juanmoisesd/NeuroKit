@@ -346,7 +346,10 @@ def entropy_multiscale(
 
     # The MSE index is quantified as the area under the curve (AUC),
     # which is like the sum normalized by the number of values. It's similar to the mean.
-    mse = np.trapz(mse) / len(mse)
+    try:
+        mse = np.trapezoid(mse) / len(mse)
+    except AttributeError:
+        mse = np.trapz(mse) / len(mse)
 
     # Plot overlay
     if show is True:

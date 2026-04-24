@@ -17,26 +17,39 @@
       "@id": "https://orcid.org/0000-0002-8401-8018",
       "affiliation": {
         "@type": "Organization",
-        "name": "Universidad Internacional de La Rioja (UNIR)"
+        "name": "Universidad Internacional de La Rioja (UNIR)",
+        "@id": "https://ror.org/0063t5s24"
       },
-      "email": "juanmoises.delaserna@unir.net"
+      "email": "juanmoises.delaserna@unir.net",
+      "sameAs": [
+        "https://www.scopus.com/authid/detail.uri?authorId=26632846700",
+        "https://www.webofscience.com/wos/author/record/M-8296-2019"
+      ]
     }
   ],
   "keywords": [
-    "open-data",
-    "dataset",
-    "research"
+    "Neuroeconomics",
+    "Forensic Psychology",
+    "Fraud Detection",
+    "AI Anti-Fraud",
+    "Decision-Making Biases",
+    "Behavioral Economics",
+    "Cognitive Neuroscience",
+    "AI Governance",
+    "AI Ethics"
   ],
   "programmingLanguage": "Python",
   "maintainer": [
     {
       "@type": "Person",
       "givenName": "Juan Moisés",
-      "familyName": "de la Serna Tuya"
+      "familyName": "de la Serna Tuya",
+      "@id": "https://orcid.org/0000-0002-8401-8018"
     }
   ],
   "funder": {
     "@type": "Organization",
-    "name": "Universidad Internacional de La Rioja (UNIR)"
+    "name": "Universidad Internacional de La Rioja (UNIR)",
+    "@id": "https://ror.org/0063t5s24"
   }
 }
