@@ -45,7 +45,10 @@ jobs:
                   pip install cvxopt
                   pip install ts2vg
                   pip install pickleshare
-                  pip install https://github.com/neuropsychology/neurokit/zipball/dev
+                  pip install beautifulsoup4
+                  pip install deep-translator
+                  pip install spacy
+                  pip install .
 
             - name: Build documentation 📜
               run: |

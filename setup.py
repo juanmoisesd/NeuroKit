@@ -49,6 +49,9 @@ test_requirements = requirements + [
     "plotly",
     "ts2vg",
     "wfdb",
+    "beautifulsoup4",
+    "deep-translator",
+    "spacy",
 ]
 
 # Setup
