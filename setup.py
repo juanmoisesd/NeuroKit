@@ -51,6 +51,7 @@ test_requirements = requirements + [
     "wfdb",
     "beautifulsoup4",
     "deep-translator",
+    "spacy",
 ]
 
 # Setup
