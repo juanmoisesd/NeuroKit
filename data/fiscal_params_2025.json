@@ -1,0 +1,32 @@
+{
+  "year": 2025,
+  "country": "NL",
+  "tax_brackets_box1": [
+    {
+      "up_to": 38441,
+      "rate": 0.3582
+    },
+    {
+      "up_to": 75518,
+      "rate": 0.3748
+    },
+    {
+      "up_to": null,
+      "rate": 0.4950
+    }
+  ],
+  "zelfstandigenaftrek": 2470,
+  "startersaftrek": 2123,
+  "mkb_winstvrijstelling_rate": 0.127,
+  "kor_max_turnover": 20000,
+  "algemene_heffingskorting": {
+    "max_amount": 3068,
+    "phase_out_start": 28406,
+    "phase_out_rate": 0.0667
+  },
+  "arbeidskorting": {
+    "max_amount": 5599,
+    "phase_out_start": 43071,
+    "phase_out_rate": 0.0651
+  }
+}
