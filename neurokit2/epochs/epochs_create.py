@@ -177,7 +177,8 @@ def epochs_create(
         dtype=data.dtypes
     )
     # Only then, we convert the non-integers to nans (because regular numpy's ints cannot be nan)
-    buffer.select_dtypes(exclude=["int", "int64"]).replace({0.0: np.nan}, inplace=True)
+    non_int_cols = buffer.select_dtypes(exclude=["int", "int64"]).columns
+    buffer[non_int_cols] = buffer[non_int_cols].replace({0.0: np.nan})
     # Now we can combine the buffer with the data
     data = pd.concat([buffer, data, buffer], ignore_index=True, sort=False)
 
@@ -216,7 +217,7 @@ def epochs_create(
 
     # Sanitize dtype of individual columns
     for i in epochs:
-        for colname, column in epochs[i].select_dtypes(include=["object"]).items():
+        for colname, column in epochs[i].select_dtypes(include=["object", "string", "str"]).items():
             # Check whether columns are indices or label/condition
             values = column.unique().tolist()
             zero_or_one = not (False in [x in [0, 1] for x in values])
