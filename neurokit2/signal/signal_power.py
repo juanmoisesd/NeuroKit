@@ -2,6 +2,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import scipy.integrate
 
 from .signal_psd import signal_psd
 
@@ -155,7 +156,7 @@ def _signal_power_instant(
 def _signal_power_instant_compute(psd, band):
     """Also used in other instances"""
     where = (psd["Frequency"] >= band[0]) & (psd["Frequency"] < band[1])
-    power = np.trapz(y=psd["Power"][where], x=psd["Frequency"][where])
+    power = scipy.integrate.trapezoid(y=psd["Power"][where], x=psd["Frequency"][where])
     return np.nan if power == 0.0 else power
 
 

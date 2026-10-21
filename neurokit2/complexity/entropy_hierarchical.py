@@ -3,6 +3,7 @@ import matplotlib.gridspec
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import scipy.integrate
 
 from .entropy_sample import entropy_sample
 from .optim_complexity_tolerance import complexity_tolerance
@@ -114,7 +115,7 @@ def entropy_hierarchical(
 
     # The HEn index is quantified as the area under the curve (AUC),
     # which is like the sum normalized by the number of values. It's similar to the mean.
-    hen = np.trapz(Sn[np.isfinite(Sn)]) / len(Sn[np.isfinite(Sn)])
+    hen = scipy.integrate.trapezoid(Sn[np.isfinite(Sn)]) / len(Sn[np.isfinite(Sn)])
 
     if show is True:
 
