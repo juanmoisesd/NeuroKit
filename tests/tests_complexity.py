@@ -1,6 +1,14 @@
 from collections.abc import Iterable
 
 import antropy
+# Monkeypatch importlib.resources.files to fix nolds in python >= 3.11
+import importlib.resources as resources
+orig_files = resources.files
+def _patched_files(package):
+    if package == 'nolds.datasets':
+        package = 'nolds'
+    return orig_files(package)
+resources.files = _patched_files
 import nolds
 import numpy as np
 import pandas as pd
