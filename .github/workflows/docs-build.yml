@@ -45,7 +45,7 @@ jobs:
                   pip install cvxopt
                   pip install ts2vg
                   pip install pickleshare
-                  pip install https://github.com/juanmoisesd/NeuroKit/zipball/dev
+                  pip install https://github.com/juanmoisesd/NeuroKit/archive/refs/heads/master.zip
 
             - name: Build documentation 📜
               run: |
