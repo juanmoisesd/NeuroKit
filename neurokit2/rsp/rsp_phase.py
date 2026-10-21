@@ -59,7 +59,7 @@ def rsp_phase(peaks, troughs=None, desired_length=None):
     peaks, troughs = _rsp_fixpeaks_retrieve(peaks, troughs)
 
     # Phase
-    inspiration = np.full(desired_length, np.nan)
+    inspiration = np.full((desired_length,), np.nan)
     inspiration[peaks] = 0.0
     inspiration[troughs] = 1.0
 
