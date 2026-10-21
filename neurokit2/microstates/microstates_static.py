@@ -216,6 +216,6 @@ def _microstates_lifetime(microstates, out=None):
     if out is None:
         out = {}
     for s in states:
-        out[str(s) + "_LifetimeDistribution"] = np.trapz(lifetimes[s])
+        out[str(s) + "_LifetimeDistribution"] = np.trapezoid(lifetimes[s])
 
     return out, lifetimes
