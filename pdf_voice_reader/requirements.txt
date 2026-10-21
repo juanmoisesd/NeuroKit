@@ -1,0 +1,6 @@
+PySide6
+PyMuPDF
+pyttsx3
+pytesseract
+Pillow
+pytest
