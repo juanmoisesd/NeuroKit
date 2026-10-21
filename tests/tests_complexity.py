@@ -1,7 +1,10 @@
 from collections.abc import Iterable
 
 import antropy
-import nolds
+try:
+    import nolds
+except ImportError:
+    nolds = None
 import numpy as np
 import pandas as pd
 import sklearn.neighbors
@@ -21,6 +24,8 @@ import neurokit2 as nk
 # Some sanity checks
 # =============================================================================
 def test_complexity_sanity():
+    if nolds is None:
+        return
     signal = np.cos(np.linspace(start=0, stop=30, num=1000))
     mdfa_q = [-5, -3, -1, 1, 3, 5]
 
@@ -84,6 +89,8 @@ def test_complexity_sanity():
 
 
 def test_complexity_vs_R():
+    if nolds is None:
+        return
     signal = pd.read_csv(
         "https://raw.githubusercontent.com/neuropsychology/NeuroKit/master/data/bio_eventrelated_100hz.csv"
     )["RSP"].values
@@ -180,9 +187,9 @@ def test_complexity_vs_Python():
 
     # MSE
     #    assert nk.entropy_multiscale(signal, 2, 0.2*np.sqrt(np.var(signal)))
-    #           != np.trapz(MultiscaleEntropy_mse(signal, [i+1 for i in range(10)], 2, 0.2, return_type="list"))
+    #           != np.trapezoid(MultiscaleEntropy_mse(signal, [i+1 for i in range(10)], 2, 0.2, return_type="list"))
     #    assert nk.entropy_multiscale(signal, 2, 0.2*np.std(signal, ddof=1))
-    #           != np.trapz(pyentrp.multiscale_entropy(signal, 2, 0.2, 10))
+    #           != np.trapezoid(pyentrp.multiscale_entropy(signal, 2, 0.2, 10))
 
     # Fuzzy
     assert np.allclose(
