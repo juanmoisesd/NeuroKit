@@ -114,7 +114,10 @@ def entropy_hierarchical(
 
     # The HEn index is quantified as the area under the curve (AUC),
     # which is like the sum normalized by the number of values. It's similar to the mean.
-    hen = np.trapz(Sn[np.isfinite(Sn)]) / len(Sn[np.isfinite(Sn)])
+    try:
+        hen = np.trapezoid(Sn[np.isfinite(Sn)]) / len(Sn[np.isfinite(Sn)])
+    except AttributeError:
+        hen = np.trapz(Sn[np.isfinite(Sn)]) / len(Sn[np.isfinite(Sn)])
 
     if show is True:
 
