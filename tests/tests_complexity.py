@@ -1,6 +1,14 @@
 from collections.abc import Iterable
 
 import antropy
+# Monkeypatch importlib.resources.files to fix nolds in python >= 3.11
+import importlib.resources as resources
+orig_files = resources.files
+def _patched_files(package):
+    if package == 'nolds.datasets':
+        package = 'nolds'
+    return orig_files(package)
+resources.files = _patched_files
 import nolds
 import numpy as np
 import pandas as pd
@@ -180,9 +188,9 @@ def test_complexity_vs_Python():
 
     # MSE
     #    assert nk.entropy_multiscale(signal, 2, 0.2*np.sqrt(np.var(signal)))
-    #           != np.trapz(MultiscaleEntropy_mse(signal, [i+1 for i in range(10)], 2, 0.2, return_type="list"))
+    #           != np.trapezoid(MultiscaleEntropy_mse(signal, [i+1 for i in range(10)], 2, 0.2, return_type="list"))
     #    assert nk.entropy_multiscale(signal, 2, 0.2*np.std(signal, ddof=1))
-    #           != np.trapz(pyentrp.multiscale_entropy(signal, 2, 0.2, 10))
+    #           != np.trapezoid(pyentrp.multiscale_entropy(signal, 2, 0.2, 10))
 
     # Fuzzy
     assert np.allclose(
