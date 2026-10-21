@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="TelemetryControlCenterApp/TelemetryControlCenterApp.csproj" />
+  <Project Path="TelemetryControlCenterCore/TelemetryControlCenterCore.csproj" />
+  <Project Path="TelemetryControlCenterTests/TelemetryControlCenterTests.csproj" />
+</Solution>
