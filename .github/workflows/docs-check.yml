@@ -39,7 +39,7 @@ jobs:
                   pip install cvxopt
                   pip install ts2vg
                   pip install pickleshare
-                  pip install git+https://github.com/neuropsychology/neurokit.git@dev
+                  pip install .
 
             - name: Build documentation 📜
               run: |
